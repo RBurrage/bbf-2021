@@ -1,14 +1,17 @@
 .footer {
-  background-color: $color-grey-dark-3;
+  background-color: $color-primary-dark;
+  background-image: linear-gradient(to right top, rgba(0, 0, 0, 0.8), rgba(183, 28, 29, 0.8));
   color: $color-grey-light-2;
   padding: 8rem 0;
   font-size: 1.4rem;
 
-  @include respond(tab-port) {
-    padding: 10rem 0;
+
+  @include respond(tab-land) {
+    padding: 1.5rem 1.5rem 2.5rem;
   }
 
   @include respond(tab-port) {
+    padding: 10rem 0;
     top: 3.5rem;
     right: 3.5rem;
   }
@@ -28,8 +31,7 @@
   }
 
   &__navigation {
-    border-top: 1px solid $color-grey-dark;
-    padding-top: 2rem;
+    padding-top: 1rem;
     display: inline-block;
 
     @include respond(tab-port) {
@@ -53,7 +55,7 @@
   &__link {
     &:link,
     &:visited {
-      color: $color-grey-light-1;
+      color: $color-secondary-light;
       background-color: #color-grey-dark-3;
       text-decoration: none;
       text-transform: uppercase;
@@ -63,15 +65,13 @@
 
     &:hover,
     &:active {
-      color: $color-primary;
+      color: $color-secondary-light;
       box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
       transform: rotate(5deg) scale(1.3);
     }
   }
 
   &__copyright {
-    border-top: 1px solid $color-grey-dark;
-    padding-top: 2rem;
     width: 80%;
     float: right;
 

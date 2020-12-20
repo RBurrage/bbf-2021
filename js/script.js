@@ -195,7 +195,7 @@ function classesSlideoutHTML() {
     html += todaysClasses[i].Start_Time + "-" + todaysClasses[i].End_Time + " | " + todaysClasses[i].ClassName + "<br />";
 
   }
-  return html + "See the <a href='#fullClassSchedule'>full class schedule.</a>";
+  return html + "<br />See the <a href='#fullClassSchedule'>full class schedule.</a>";
 }
 function FullScheduleHTML() {
   let html = "";
