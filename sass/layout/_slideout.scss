@@ -1,0 +1,77 @@
+#todaysClassesSlideOut {
+  position: fixed;
+  width: 33rem;
+  height: auto;
+  top: 3rem;
+  left: 0;
+  /* Animation  */
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  font-family: sans-serif;
+  z-index: 9999999;
+}
+#todaysClassesSlideOut .slideOutTab:hover {
+  cursor: pointer;
+}
+.hideSlideOut {
+  left: -33rem !important;
+}
+#todaysClassesSlideOut .slideOutTab {
+  margin-top: 0;
+  position: absolute;
+  left: 33rem;
+  height: 30px;
+  width: 30px;
+  /* -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); */
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); */
+  background: $color-secondary-light;
+  border-radius: 0px 5px 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-primary-dark;
+}
+#todaysClassesSlideOut .webinar-modal-content {
+  border: 1px solid #ccc;
+  min-height: 200px;
+  padding: 20px;
+  background: #fff;
+  border-bottom-right-radius: 10px;
+}
+#todaysClassesSlideOut h3 {
+  font-weight: bold;
+  color: $color-primary-dark;
+}
+#todaysClassesSlideOut h2 {
+  font-size: 1.25em;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#todaysClassesSlideOut p {
+  font-weight: normal;
+  color: #333;
+}
+
+#todaysClasses {
+  line-height: 3.5rem;
+  hr {
+    margin: 6px 0;
+  }
+}
+
+#todaysClassesSlideOut .slideOutTab:after {
+  content: "\2212";
+  left: -1.5rem;
+  position: relative;
+}
+#todaysClassesSlideOut .plusSign:after {
+  content: "\002B";
+  left: -1.5rem;
+  position: relative;
+}
+#todaysClassesSlideOut a {
+  color: $color-primary-dark;
+  text-decoration: none;
+}
