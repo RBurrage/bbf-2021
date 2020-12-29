@@ -73,8 +73,10 @@ body {
     font-size: 2.5rem;
   }
 
+  span {
+    color: $color-white;
+  }
 }
-
 
 .heading-tertiary {
   font-size: $default-font-size;
@@ -90,7 +92,6 @@ body {
   }
 }
 
-
 .section-sub {
   font-weight: bold;
   text-transform: uppercase;
@@ -99,4 +100,12 @@ body {
 
   p {
     margin: 1.5rem;
+    
+    &.support-header {
+      color: $color-white;
+      font-weight: normal;
+      font-size: 2rem;
+      margin: 0 3rem;
+    }
+
   }

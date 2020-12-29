@@ -34,3 +34,12 @@ body {
     background-color: $color-primary;
     color: $color-white;
 }
+
+a {
+    color: $color-secondary-light;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

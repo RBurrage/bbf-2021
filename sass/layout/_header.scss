@@ -40,6 +40,9 @@
 
   &__logo {
     height: 20rem;
+    animation-name: moveInBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
   }
 
   &__text-box {
