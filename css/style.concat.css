@@ -1037,13 +1037,13 @@ select {
     .footer__item:not(:last-child) {
       margin-right: 1.5rem; }
   .footer__link:link, .footer__link:visited {
-    color: #ffb900;
+    color: #1094F4;
     background-color: #color-grey-dark-3;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block; }
   .footer__link:hover, .footer__link:active {
-    color: #ffb900; }
+    color: #fff; }
   .footer__copyright {
     width: 80%;
     float: right; }
@@ -1051,6 +1051,12 @@ select {
       .footer__copyright {
         width: 100%;
         float: none; } }
+
+.lease-gym {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+  padding: 20px;
+  border-radius: 10px; }
 
 .navigation__checkbox {
   display: none; }
@@ -1183,6 +1189,9 @@ select {
   z-index: 9999;
   visibility: hidden;
   transition: all 0.3s; }
+  .popup h2 {
+    color: maroon;
+    text-transform: uppercase; }
   @supports (-webkit-backdrop-filter: blur(10px)) or (-moz-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
     .popup {
       -moz-backdrop-filter: blur(10px);
@@ -1232,6 +1241,16 @@ select {
     @media only screen and (max-width: 37.5em) {
       .popup__right .heading-secondary {
         font-size: 2rem; } }
+  .popup__twocol {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    line-height: 2.5rem;
+    padding: 2rem;
+    background: #eee; }
+    @media only screen and (max-width: 75em) {
+      .popup__twocol {
+        grid-template-columns: 1fr; } }
   .popup__img {
     display: block;
     max-width: 80%; }
@@ -1266,62 +1285,46 @@ select {
 
 .slideOut {
   position: fixed;
+  width: 300px;
   height: auto;
-  top: 0;
+  top: 175px;
   right: 0;
-  z-index: 5000;
   /* Animation  */
   transition-property: all;
-  transition-duration: 0.5s;
+  transition-duration: .5s;
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  font-family: sans-serif; }
-  .slideOut .slideout__content {
-    border: 1px solid #ccc;
-    min-height: 200px;
-    padding: 20px;
-    background: #fff;
-    border-bottom-left-radius: 10px; }
-  .slideOut .slideOutTab:hover {
-    cursor: pointer; }
-  .slideOut .slideOutTab {
-    margin-top: 0;
-    position: absolute;
-    right: 28rem;
-    height: 30px;
-    width: 30px;
-    background: #1094f4;
-    border-radius: 5px 0 0 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #B71C1D; }
-  .slideOut h3 {
-    font-weight: bold;
-    color: #B71C1D; }
-  .slideOut h2 {
-    font-size: 1.25em;
-    color: #B71C1D;
-    text-transform: uppercase;
-    font-weight: bold; }
-  .slideOut p {
-    font-weight: normal;
-    color: #333; }
-  .slideOut a {
-    color: #B71C1D;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block; }
+  font-family: sans-serif;
+  z-index: 5;
+  animation: fadeInWebinarSlider 1s;
+  animation-delay: 3s;
+  opacity: 0;
+  animation-fill-mode: forwards; }
+
+@keyframes fadeInWebinarSlider {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 100%; } }
+
+.slideOut .slideOutTab:hover {
+  cursor: pointer; }
 
 .hideSlideOut {
-  right: -28rem !important; }
+  right: -300px !important; }
 
-#todaysClasses {
-  line-height: 2.5rem;
-  font-size: 1em; }
-  #todaysClasses hr {
-    margin: 6px 0; }
-
-i.fa.fa-facebook {
+.slideOut .slideOutTab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 0;
+  left: -30px;
+  height: 30px;
+  width: 30px;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  background: #1094f4;
+  border-radius: 5px 0px 0px 5px;
   color: #fff; }
 
 .classItem {
