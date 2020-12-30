@@ -818,27 +818,27 @@ select {
   .popup__close:hover {
     color: #000; }
 
-.slideOut.facebook {
+.slideOut {
   position: fixed;
   width: 28rem;
   height: auto;
-  top: 20rem;
+  top: 0;
   right: 0;
-  z-index: 50;
+  z-index: 5000;
   /* Animation  */
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   font-family: sans-serif; }
-  .slideOut.facebook .slideout__content {
+  .slideOut .slideout__content {
     border: 1px solid #ccc;
     min-height: 200px;
     padding: 20px;
     background: #fff;
     border-bottom-left-radius: 10px; }
-  .slideOut.facebook .slideOutTab:hover {
+  .slideOut .slideOutTab:hover {
     cursor: pointer; }
-  .slideOut.facebook .slideOutTab {
+  .slideOut .slideOutTab {
     margin-top: 0;
     position: absolute;
     right: 28rem;
@@ -850,18 +850,18 @@ select {
     justify-content: center;
     align-items: center;
     color: #B71C1D; }
-  .slideOut.facebook h3 {
+  .slideOut h3 {
     font-weight: bold;
     color: #B71C1D; }
-  .slideOut.facebook h2 {
+  .slideOut h2 {
     font-size: 1.25em;
     color: #B71C1D;
     text-transform: uppercase;
     font-weight: bold; }
-  .slideOut.facebook p {
+  .slideOut p {
     font-weight: normal;
     color: #333; }
-  .slideOut.facebook a {
+  .slideOut a {
     color: #B71C1D;
     text-decoration: none;
     text-transform: uppercase;

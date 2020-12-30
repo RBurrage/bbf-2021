@@ -1,14 +1,13 @@
-.slideOut.facebook {
+.slideOut {
   position: fixed;
-  width: 28rem;
   height: auto;
-  top: 20rem;
+  top: 0;
   right: 0;
-  z-index: 50;
+  z-index: 5000;
   /* Animation  */
   transition-property: all;
   transition-duration: 0.5s;
-  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);`
   font-family: sans-serif;
 
   .slideout__content {
