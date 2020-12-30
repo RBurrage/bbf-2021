@@ -221,10 +221,10 @@ $(document).ready(function () {
 });
 
 // Slideout
-this.$slideOut = $('#todaysClassesSlideOut');
+this.$slideOut = $('.slideOut');
 
 // Close slideout panel
 this.$slideOut.find('.slideOutTab').on('click', function() {
-  $("#todaysClassesSlideOut").toggleClass('hideSlideOut');
+  $(".slideOut").toggleClass('hideSlideOut');
   $(".slideOutTab").toggleClass('plusSign');
 });

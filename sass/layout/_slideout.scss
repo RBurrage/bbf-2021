@@ -1,9 +1,10 @@
-#todaysClassesSlideOut {
+.slideOut.facebook {
   position: fixed;
   width: 28rem;
   height: auto;
   top: 20rem;
   right: 0;
+  z-index: 50;
   /* Animation  */
   transition-property: all;
   transition-duration: 0.5s;

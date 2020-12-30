@@ -226,26 +226,6 @@ select {
     .section-boxing, .section-schedule {
       padding: 10rem 0; } }
 
-.facebook-bar {
-  position: fixed;
-  top: 60%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 0; }
-  .facebook-bar a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 20px; }
-    .facebook-bar a:hover {
-      background-color: #000; }
-  .facebook-bar .facebook {
-    background: #3B5998;
-    color: white; }
-
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -838,26 +818,27 @@ select {
   .popup__close:hover {
     color: #000; }
 
-#todaysClassesSlideOut {
+.slideOut.facebook {
   position: fixed;
   width: 28rem;
   height: auto;
   top: 20rem;
   right: 0;
+  z-index: 50;
   /* Animation  */
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   font-family: sans-serif; }
-  #todaysClassesSlideOut .slideout__content {
+  .slideOut.facebook .slideout__content {
     border: 1px solid #ccc;
     min-height: 200px;
     padding: 20px;
     background: #fff;
     border-bottom-left-radius: 10px; }
-  #todaysClassesSlideOut .slideOutTab:hover {
+  .slideOut.facebook .slideOutTab:hover {
     cursor: pointer; }
-  #todaysClassesSlideOut .slideOutTab {
+  .slideOut.facebook .slideOutTab {
     margin-top: 0;
     position: absolute;
     right: 28rem;
@@ -869,18 +850,18 @@ select {
     justify-content: center;
     align-items: center;
     color: #B71C1D; }
-  #todaysClassesSlideOut h3 {
+  .slideOut.facebook h3 {
     font-weight: bold;
     color: #B71C1D; }
-  #todaysClassesSlideOut h2 {
+  .slideOut.facebook h2 {
     font-size: 1.25em;
     color: #B71C1D;
     text-transform: uppercase;
     font-weight: bold; }
-  #todaysClassesSlideOut p {
+  .slideOut.facebook p {
     font-weight: normal;
     color: #333; }
-  #todaysClassesSlideOut a {
+  .slideOut.facebook a {
     color: #B71C1D;
     text-decoration: none;
     text-transform: uppercase;
