@@ -1,88 +1,44 @@
 .slideOut {
-  position: fixed;
-  height: auto;
-  top: 0;
-  right: 0;
-  z-index: 5000;
-  /* Animation  */
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);`
-  font-family: sans-serif;
-
-  .slideout__content {
-    border: 1px solid #ccc;
-    min-height: 200px;
-    padding: 20px;
-    background: #fff;
-    border-bottom-left-radius: 10px;
+	position: fixed;
+	width: 300px;
+	height: auto;
+	top: 175px;
+	right: 0;
+	/* Animation  */
+	transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+	font-family: sans-serif;
+	z-index: 5;
+	animation: fadeInWebinarSlider 1s;
+	animation-delay: 3s;
+	opacity: 0;
+	animation-fill-mode: forwards;
   }
 
-  .slideOutTab:hover {
-    cursor: pointer;
+  @keyframes fadeInWebinarSlider {
+	from {opacity: 0;}
+	to {opacity: 100%;}
   }
 
-  .slideOutTab {
-    margin-top: 0;
-    position: absolute;
-    right: 28rem;
-    height: 30px;
-    width: 30px;
-    background: #1094f4;
-    border-radius: 5px 0 0 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: $color-primary-dark;
+  .slideOut .slideOutTab:hover {
+	cursor: pointer;
   }
-
-  h3 {
-    font-weight: bold;
-    color: $color-primary-dark;
+  .hideSlideOut {
+	right: -300px !important;
   }
-  h2 {
-    font-size: 1.25em;
-    color: $color-primary-dark;
-    text-transform: uppercase;
-    font-weight: bold;
+  .slideOut .slideOutTab {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	position: absolute;
+	margin-top: 0;
+	left: -30px;
+	height: 30px;
+	width: 30px;
+	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	background: #1094f4;
+	border-radius: 5px 0px 0px 5px;
+	color: #fff;
   }
-  p {
-    font-weight: normal;
-    color: #333;
-  }
-
-  //TODO: REFACTOR TO CREATE ANOTHER SLIDE OUT WITH TODAY'S CLASSES
-  // .slideOutTab:after {
-  //   content: "\f09a";
-  //   left: -1.5rem;
-  //   position: relative;
-  // }
-
-  // .plusSign:after {
-  //   content: "\f09a";
-  //   left: -1.5rem;
-  //   position: relative;
-  // }
-
-  a {
-    color: $color-primary-dark;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-  }
-}
-
-.hideSlideOut {
-  right: -28rem !important;
-}
-
-#todaysClasses {
-  line-height: 2.5rem;
-  font-size: 1em;
-  hr {
-    margin: 6px 0;
-  }
-}
-i.fa.fa-facebook {
-  color: #fff;
-}
