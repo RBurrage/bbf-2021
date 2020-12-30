@@ -674,10 +674,11 @@ select {
 
 .facebook-bar {
   position: fixed;
-  top: 50%;
+  top: 60%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
+  transform: translateY(-50%);
+  right: 0; }
   .facebook-bar a {
     display: block;
     text-align: center;
@@ -1283,69 +1284,65 @@ select {
   .popup__close:hover {
     color: #000; }
 
-#todaysClassesSlideOut {
+#facebookSlideOut {
   position: fixed;
-  width: 33rem;
+  width: 28rem;
   height: auto;
-  top: 3rem;
-  left: 0;
+  top: 20rem;
+  right: 0;
   /* Animation  */
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   font-family: sans-serif; }
-  #todaysClassesSlideOut .slideout__content {
+  #facebookSlideOut .slideout__content {
     border: 1px solid #ccc;
     min-height: 200px;
     padding: 20px;
     background: #fff;
-    border-bottom-right-radius: 10px; }
-  #todaysClassesSlideOut .slideOutTab:hover {
+    border-bottom-left-radius: 10px; }
+  #facebookSlideOut .slideOutTab:hover {
     cursor: pointer; }
-  #todaysClassesSlideOut .slideOutTab {
+  #facebookSlideOut .slideOutTab {
     margin-top: 0;
     position: absolute;
-    left: 33rem;
+    right: 28rem;
     height: 30px;
     width: 30px;
-    background: #ffb900;
-    border-radius: 0px 5px 5px 0;
+    background: #1094f4;
+    border-radius: 5px 0 0 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #B71C1D; }
-  #todaysClassesSlideOut h3 {
+  #facebookSlideOut h3 {
     font-weight: bold;
     color: #B71C1D; }
-  #todaysClassesSlideOut h2 {
+  #facebookSlideOut h2 {
     font-size: 1.25em;
     color: #B71C1D;
     text-transform: uppercase;
     font-weight: bold; }
-  #todaysClassesSlideOut p {
+  #facebookSlideOut p {
     font-weight: normal;
     color: #333; }
-  #todaysClassesSlideOut .slideOutTab:after {
-    content: "\2212";
-    left: -1.5rem;
-    position: relative; }
-  #todaysClassesSlideOut .plusSign:after {
-    content: "\002B";
-    left: -1.5rem;
-    position: relative; }
-  #todaysClassesSlideOut a {
+  #facebookSlideOut a {
     color: #B71C1D;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block; }
 
 .hideSlideOut {
-  left: -33rem !important; }
+  right: -28rem !important; }
 
 #todaysClasses {
-  line-height: 3.5rem; }
+  line-height: 2.5rem;
+  font-size: 1em; }
   #todaysClasses hr {
     margin: 6px 0; }
+
+i.fa.fa-facebook {
+  color: #fff; }
 
 .classItem {
   margin: 15px 0;

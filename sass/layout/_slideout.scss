@@ -1,9 +1,9 @@
 #todaysClassesSlideOut {
   position: fixed;
-  width: 33rem;
+  width: 28rem;
   height: auto;
-  top: 3rem;
-  left: 0;
+  top: 20rem;
+  right: 0;
   /* Animation  */
   transition-property: all;
   transition-duration: 0.5s;
@@ -15,7 +15,7 @@
     min-height: 200px;
     padding: 20px;
     background: #fff;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
 
   .slideOutTab:hover {
@@ -25,11 +25,11 @@
   .slideOutTab {
     margin-top: 0;
     position: absolute;
-    left: 33rem;
+    right: 28rem;
     height: 30px;
     width: 30px;
-    background: $color-secondary-light;
-    border-radius: 0px 5px 5px 0;
+    background: #1094f4;
+    border-radius: 5px 0 0 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,16 +50,20 @@
     font-weight: normal;
     color: #333;
   }
-  .slideOutTab:after {
-    content: "\2212";
-    left: -1.5rem;
-    position: relative;
-  }
-  .plusSign:after {
-    content: "\002B";
-    left: -1.5rem;
-    position: relative;
-  }
+
+  //TODO: REFACTOR TO CREATE ANOTHER SLIDE OUT WITH TODAY'S CLASSES
+  // .slideOutTab:after {
+  //   content: "\f09a";
+  //   left: -1.5rem;
+  //   position: relative;
+  // }
+
+  // .plusSign:after {
+  //   content: "\f09a";
+  //   left: -1.5rem;
+  //   position: relative;
+  // }
+
   a {
     color: $color-primary-dark;
     text-decoration: none;
@@ -69,12 +73,16 @@
 }
 
 .hideSlideOut {
-  left: -33rem !important;
+  right: -28rem !important;
 }
 
 #todaysClasses {
-  line-height: 3.5rem;
+  line-height: 2.5rem;
+  font-size: 1em;
   hr {
     margin: 6px 0;
   }
+}
+i.fa.fa-facebook {
+  color: #fff;
 }
