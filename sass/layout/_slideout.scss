@@ -1,44 +1,88 @@
 .slideOut {
-	position: fixed;
-	width: 300px;
-	height: auto;
-	top: 175px;
-	right: 0;
-	/* Animation  */
-	transition-property: all;
-	transition-duration: .5s;
-	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-	font-family: sans-serif;
-	z-index: 50;
-	animation: fadeInWebinarSlider 1s;
-	animation-delay: 3s;
-	opacity: 0;
-	animation-fill-mode: forwards;
-  }
+  position: fixed;
+  width: 250px;
+  height: auto;
+  top: 175px;
+  right: 0;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  font-family: sans-serif;
+  z-index: 5;
+  animation: fadeInWebinarSlider 1s;
+  animation-delay: 3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  background-color: white;
+  font-size: 0.8em;
+}
 
-  @keyframes fadeInWebinarSlider {
-	from {opacity: 0;}
-	to {opacity: 100%;}
+@keyframes fadeInWebinarSlider {
+  from {
+    opacity: 0;
   }
+  to {
+    opacity: 100%;
+  }
+}
 
-  .slideOut .slideOutTab:hover {
-	cursor: pointer;
-  }
-  .hideSlideOut {
-	right: -300px !important;
-  }
-  .slideOut .slideOutTab {
-	display: flex;
-	justify-content:center;
-	align-items: center;
-	position: absolute;
-	margin-top: 0;
-	left: -30px;
-	height: 30px;
-	width: 30px;
-	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-	background: #1094f4;
-	border-radius: 5px 0px 0px 5px;
-	color: #fff;
-  }
+.slideOut .slideOutTab:hover {
+  cursor: pointer;
+}
+
+.hideSlideOut {
+  right: -250px !important;
+}
+
+.slideOut .slideOutTab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 0;
+  left: -30px;
+  height: 30px;
+  width: 30px;
+  background: $color-secondary-light;
+  border-radius: 5px 0px 0px 5px;
+  color: $color-primary-dark;
+}
+
+.slideOut .slideout-content {
+  border: 1px solid$color-secondary-light;
+  height: auto;
+  padding: 0 20px 0;
+  background: rgb(65, 39, 59);
+  margin: 1rem;
+}
+
+.slideOut h3 {
+  font-weight: bold;
+  color: $color-secondary-light;
+}
+
+.slideOut h2 {
+  font-size: 1.25em;
+  color: $color-primary-dark;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.slideOut p {
+  font-weight: normal;
+  margin: 15px 0;
+}
+
+.slideOut .slideOutTab:after {
+  content: "\2212";
+}
+
+.slideOut .plusSign:after {
+  content: "\002B";
+}
+
+.slideOut a {
+  color: $color-primary-dark;
+  text-decoration: none;
+}

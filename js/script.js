@@ -228,3 +228,6 @@ this.$slideOut.find('.slideOutTab').on('click', function() {
   $(".slideOut").toggleClass('hideSlideOut');
   $(".slideOutTab").toggleClass('plusSign');
 });
+
+// Get the modal
+var modal = document.querySelector('.popup');

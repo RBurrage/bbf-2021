@@ -14,8 +14,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <!-- UNCOMMENT THIS LINE FOR DEVELOPMENT -->
-    <link rel="stylesheet" href="css/icon-font.css" />
+    <!-- UNCOMMENT THIS LINE FOR DEVELOPMENT 
+    <link rel="stylesheet" href="css/icon-font.css" />-->
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
@@ -23,7 +23,7 @@
     <title>Boston Boxing &amp; Fitness</title>
   </head>
 
-  <body class="popup__close">
+  <body>
     <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
       <label for="navi-toggle" class="navigation__btn"
@@ -423,7 +423,7 @@
           </div>
         </section>
 
-        <section class="section-membership" id="charity">
+        <section class="section-membership popup__close-bg" id="charity">
           <div class="u-center-text u-margin-bottom-big">
             <h2 class="heading-secondary">
               <span>Boston Boxing Community Outreach</span>
@@ -786,16 +786,11 @@
     <div class="slideOut">
       <div class="slideOutTab">
         <div>
-          <p><i class="fa fa-facebook" title="Edit"></i></p>
+          <p></p>
         </div>
       </div>
       <div class="slideout__content">
-        <iframe
-          frameborder="0"
-          scrolling="yes"
-          src="https://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F137649652944543&colorscheme=light&show_faces=false&border_color&stream=true&header=true&height=500"
-          style="overflow: hidden; height: 500px; background: white"
-        ></iframe>
+        <div class="sliderSched" id="todaysClasses"></div>
       </div>
     </div>
 
