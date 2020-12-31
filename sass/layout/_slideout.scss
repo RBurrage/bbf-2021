@@ -2,7 +2,7 @@
   position: fixed;
   width: 240px;
   height: auto;
-  top: 0;
+  top: 12rem;
   right: 0;
   transition-property: all;
   transition-duration: 0.5s;
@@ -76,7 +76,7 @@
 
 .slideOut p {
   font-weight: normal;
-  margin: 15px 0;
+  margin: 5px 0;
 }
 
 .slideOut .slideOutTab:after {

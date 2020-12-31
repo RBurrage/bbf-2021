@@ -6,7 +6,7 @@
   left: 0;
   background-color: rgba($color-black, 0.8);
   opacity: 0;
-  z-index: 9999;
+  z-index: 4000;
   visibility: hidden; //hides the modal until user clicks on button (anchor tags)
   transition: all 0.3s;
 

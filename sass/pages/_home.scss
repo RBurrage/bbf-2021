@@ -26,9 +26,16 @@
   @include respond(tab-port) {
     padding: 10rem 0;
   }
+
+  @include respond(phone) {
+    img {
+      width: 100%;
+    }
+  }
 }
 
-.section-boxing, .section-schedule {
+.section-boxing,
+.section-schedule {
   padding: 15rem 0 5rem;
   position: relative;
 
