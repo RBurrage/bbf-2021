@@ -10,6 +10,10 @@
   visibility: hidden; //hides the modal until user clicks on button (anchor tags)
   transition: all 0.3s;
 
+  @include respond(phone) {
+      position: absolute;
+  }
+
   h2 {
     color: maroon;
     text-transform: uppercase;

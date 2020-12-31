@@ -164,7 +164,7 @@ p {
     color: #fff;
     font-weight: normal;
     font-size: 2rem;
-    margin: 0 3rem; }
+    text-align: center; }
 
 .u-center-text {
   text-align: center !important; }
@@ -747,6 +747,9 @@ select {
   z-index: 9999;
   visibility: hidden;
   transition: all 0.3s; }
+  @media only screen and (max-width: 37.5em) {
+    .popup {
+      position: absolute; } }
   .popup h2 {
     color: maroon;
     text-transform: uppercase; }
