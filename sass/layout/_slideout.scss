@@ -1,21 +1,27 @@
 .slideOut {
   position: fixed;
-  width: 250px;
+  width: 240px;
   height: auto;
-  top: 175px;
+  top: 0;
   right: 0;
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   font-family: sans-serif;
-  z-index: 5;
+  z-index: 5000;
   animation: fadeInWebinarSlider 1s;
   animation-delay: 3s;
   opacity: 0;
   animation-fill-mode: forwards;
   background-color: white;
   font-size: 0.8em;
-}
+  border: 1px solid $color-primary-dark;
+  border-bottom-left-radius: 10px;
+  padding: 1rem;
+  color: $color-black;
+
+
+  }
 
 @keyframes fadeInWebinarSlider {
   from {
@@ -31,7 +37,7 @@
 }
 
 .hideSlideOut {
-  right: -250px !important;
+  right: -240px !important;
 }
 
 .slideOut .slideOutTab {
@@ -53,12 +59,11 @@
   height: auto;
   padding: 0 20px 0;
   background: rgb(65, 39, 59);
-  margin: 1rem;
+  padding: 2rem;
 }
 
 .slideOut h3 {
   font-weight: bold;
-  color: $color-secondary-light;
 }
 
 .slideOut h2 {

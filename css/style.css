@@ -788,17 +788,21 @@ select {
         width: 100%;
         max-height: 250px;
         overflow: hidden; } }
+    @media only screen and (max-width: 37.5em) {
+      .popup__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem; } }
   .popup__right {
     width: 66.666666%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
-    @media only screen and (max-width: 75em) {
-      .popup__right {
-        width: 100%; } }
     @media only screen and (max-width: 37.5em) {
-      .popup__right .heading-secondary {
-        font-size: 2rem; } }
+      .popup__right {
+        padding: 0;
+        width: 100vw; } }
   .popup__twocol {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -843,21 +847,25 @@ select {
 
 .slideOut {
   position: fixed;
-  width: 250px;
+  width: 240px;
   height: auto;
-  top: 175px;
+  top: 0;
   right: 0;
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   font-family: sans-serif;
-  z-index: 5;
+  z-index: 5000;
   animation: fadeInWebinarSlider 1s;
   animation-delay: 3s;
   opacity: 0;
   animation-fill-mode: forwards;
   background-color: white;
-  font-size: 0.8em; }
+  font-size: 0.8em;
+  border: 1px solid #B71C1D;
+  border-bottom-left-radius: 10px;
+  padding: 1rem;
+  color: #000; }
 
 @keyframes fadeInWebinarSlider {
   from {
@@ -869,7 +877,7 @@ select {
   cursor: pointer; }
 
 .hideSlideOut {
-  right: -250px !important; }
+  right: -240px !important; }
 
 .slideOut .slideOutTab {
   display: flex;
@@ -889,11 +897,10 @@ select {
   height: auto;
   padding: 0 20px 0;
   background: #41273b;
-  margin: 1rem; }
+  padding: 2rem; }
 
 .slideOut h3 {
-  font-weight: bold;
-  color: #ffb900; }
+  font-weight: bold; }
 
 .slideOut h2 {
   font-size: 1.25em;

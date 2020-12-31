@@ -192,10 +192,10 @@ function classesSlideoutHTML() {
   }
 
   for (let i = 0; i < todaysClasses.length; i++) {
-    html += todaysClasses[i].Start_Time + "-" + todaysClasses[i].End_Time + " | " + todaysClasses[i].ClassName + "<br />";
+    html += `<p><strong>${todaysClasses[i].ClassName}</strong><br>${todaysClasses[i].Start_Time} - ${todaysClasses[i].End_Time}</p>`;
 
   }
-  return html + "<br />See the <a href='#fullClassSchedule'>full class schedule.</a>";
+  return html + `<p></p>See the <a href='#fullClassSchedule' id="classSchedule">full class schedule.</a></p>`;
 }
 function FullScheduleHTML() {
   let html = "";
