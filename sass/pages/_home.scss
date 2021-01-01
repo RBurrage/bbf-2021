@@ -52,5 +52,7 @@
 }
 
 .vsl img {
-  width: 100%;
+  @include respond(tab-port) {
+    width: 100%;
+  }
 }

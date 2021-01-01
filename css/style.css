@@ -239,8 +239,9 @@ select {
     .section-schedule {
       padding: 10rem 0; } }
 
-.vsl img {
-  width: 100%; }
+@media only screen and (max-width: 56.25em) {
+  .vsl img {
+    width: 100%; } }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -783,9 +784,6 @@ select {
   z-index: 4000;
   visibility: hidden;
   transition: all 0.3s; }
-  @media only screen and (max-width: 37.5em) {
-    .popup {
-      position: absolute; } }
   .popup h2 {
     color: maroon;
     text-transform: uppercase; }
@@ -845,13 +843,9 @@ select {
   .popup__twocol {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 4rem;
     line-height: 2.5rem;
     padding: 2rem;
     background: #eee; }
-    @media only screen and (max-width: 75em) {
-      .popup__twocol {
-        grid-template-columns: 1fr; } }
   .popup__img {
     display: block;
     max-width: 80%; }
