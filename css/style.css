@@ -206,23 +206,25 @@ select {
 
 .section-team-training {
   background: #eee;
-  padding: 5rem 5rem 10rem; }
+  padding: 5rem 0 10rem; }
 
-.section-membership {
+.section-membership,
+.section-outreach {
   padding: 20rem 0;
-  margin-top: -16rem;
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(183, 28, 29, 0.8)), url(../img/boxing-glove.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   background-position: bottom; }
-  .section-membership > * {
+  .section-membership > *,
+  .section-outreach > * {
     transform: skewY(7deg); }
   @media only screen and (max-width: 56.25em) {
-    .section-membership {
+    .section-membership,
+    .section-outreach {
       padding: 10rem 0; } }
-  @media only screen and (max-width: 37.5em) {
-    .section-membership img {
-      width: 100%; } }
+
+.section-outreach {
+  margin-top: -16rem; }
 
 .section-boxing,
 .section-schedule {
@@ -236,6 +238,9 @@ select {
     .section-boxing,
     .section-schedule {
       padding: 10rem 0; } }
+
+.vsl img {
+  width: 100%; }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -734,6 +739,9 @@ select {
     height: 2px;
     background-color: #b71c1d;
     display: inline-block; }
+    @media only screen and (max-width: 37.5em) {
+      .navigation__icon, .navigation__icon::before, .navigation__icon::after {
+        width: 2rem; } }
   .navigation__icon::before, .navigation__icon::after {
     content: "";
     position: absolute;
