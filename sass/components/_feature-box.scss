@@ -11,6 +11,10 @@
         color: #1094F4;
     }
 
+    p {
+        line-height: 2.25rem;
+    }
+
     &.dark-bg {
         background-color: rgba($color-grey-dark-3, .8);
         border: 1px solid #666;
