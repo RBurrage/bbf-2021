@@ -371,11 +371,13 @@ select {
   border-radius: 0.3rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
+  .feature-box a {
+    color: #1094F4; }
   .feature-box.dark-bg {
     background-color: rgba(51, 51, 51, 0.8);
     border: 1px solid #666; }
-  .feature-box img {
-    max-height: 150px; }
+  .feature-box .outreach-logo {
+    height: 150px; }
   @media only screen and (max-width: 56.25em) {
     .feature-box {
       padding: 2rem; } }

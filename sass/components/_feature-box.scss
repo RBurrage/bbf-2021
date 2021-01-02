@@ -7,13 +7,17 @@
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15); 
     transition: transform .3s;
 
+    a {
+        color: #1094F4;
+    }
+
     &.dark-bg {
         background-color: rgba($color-grey-dark-3, .8);
         border: 1px solid #666;
     }
 
-    img {            
-        max-height: 150px;
+    .outreach-logo {            
+    height: 150px;
     }
 
     @include respond(tab-port) {         
