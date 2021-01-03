@@ -11,6 +11,10 @@ body {
   text-transform: uppercase;
   backface-visibility: hidden;
 
+  @include respond(phone) {
+    margin-top: 8rem;
+  }
+
   &--main {
     display: block;
     font-size: 5rem;
@@ -29,8 +33,8 @@ body {
     }
 
     @include respond(phone) {
-      letter-spacing: 1rem;
-      font-size: 3rem;
+      letter-spacing:normal;
+      font-size: 2.5rem;
     }
   }
 
@@ -45,6 +49,7 @@ body {
 
     @include respond(phone) {
       letter-spacing: 0.5rem;
+      font-size: 1.5rem;
     }
   }
 }
