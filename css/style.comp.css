@@ -230,6 +230,28 @@ select {
 
 .section-outreach {
   margin-top: -16rem; }
+  .section-outreach table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed; }
+  .section-outreach table caption {
+    font-size: 1em;
+    margin: .5em 0 .75em; }
+  .section-outreach table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em; }
+  .section-outreach table th,
+  .section-outreach table td {
+    padding: 1em; }
+  .section-outreach table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: left; }
 
 .section-boxing,
 .section-schedule {
@@ -635,8 +657,8 @@ select {
 .lease-gym {
   background-color: rgba(255, 255, 255, 0.8);
   color: #000;
-  padding: 20px;
-  border-radius: 10px; }
+  padding: 30px;
+  border-radius: 5px; }
   .lease-gym h2 {
     color: maroon;
     text-transform: uppercase;
@@ -781,111 +803,6 @@ select {
 .navigation__checkbox:checked + .navigation__btn .navigation__icon::after {
   top: 0;
   transform: rotate(-135deg); }
-
-.popup {
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  z-index: 4000;
-  visibility: hidden;
-  transition: all 0.3s; }
-  .popup h2 {
-    color: maroon;
-    text-transform: uppercase; }
-  @supports (-webkit-backdrop-filter: blur(10px)) or (-moz-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
-    .popup {
-      -moz-backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      backdrop-filter: blur(10px);
-      background-color: rgba(0, 0, 0, 0.3); } }
-  .popup__content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
-    border-radius: 0.3rem;
-    display: table;
-    overflow: hidden;
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0.25);
-    transition: all 0.5s 0.2s; }
-    .popup__content form {
-      text-align: center; }
-    @media only screen and (max-width: 75em) {
-      .popup__content {
-        display: grid;
-        grid-template-columns: 1fr; } }
-  .popup__left {
-    width: 33.333333%;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: -webkit-center;
-    background-color: #ffb900; }
-    @media only screen and (max-width: 75em) {
-      .popup__left {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        max-height: 250px;
-        overflow: hidden; } }
-    @media only screen and (max-width: 37.5em) {
-      .popup__left {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 2rem; } }
-  .popup__right {
-    width: 66.666666%;
-    display: table-cell;
-    vertical-align: middle;
-    padding: 3rem 5rem; }
-    @media only screen and (max-width: 37.5em) {
-      .popup__right {
-        padding: 0;
-        width: 100vw; } }
-  .popup__twocol {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    line-height: 2.5rem;
-    padding: 2rem;
-    background: #eee; }
-  .popup__img {
-    display: block;
-    max-width: 80%; }
-    @media only screen and (max-width: 56.25em) {
-      .popup__img {
-        display: flex; } }
-  .popup__text {
-    font-size: 1.4rem;
-    margin-bottom: 4rem;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto; }
-  .popup:target {
-    opacity: 1;
-    visibility: visible; }
-  .popup:target .popup__content {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1); }
-  .popup__close:link, .popup__close:visited {
-    color: #777;
-    position: absolute;
-    top: 2.5rem;
-    right: 2.5rem;
-    font-size: 3rem;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.2s;
-    line-height: 1; }
-  .popup__close:hover {
-    color: #000; }
 
 .slideOut {
   position: fixed;
