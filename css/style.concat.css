@@ -599,6 +599,11 @@ body {
   .paragraph:not(:last-child) {
     margin-bottom: 30px; }
 
+.section-outreach .paragraph {
+  color: #eee;
+  margin: 3rem auto;
+  text-align: left; }
+
 .section-sub {
   font-weight: bold;
   text-transform: uppercase;
