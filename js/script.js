@@ -146,7 +146,7 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Monday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "8:00PM"
   },
   {
     "DayOfTheWeek": "Monday",
@@ -164,7 +164,7 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Tuesday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "8:00PM"
   },
   {
     "DayOfTheWeek": "Tuesday",
@@ -182,7 +182,7 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Wednesday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "8:00PM"
   },
   {
     "DayOfTheWeek": "Wednesday",
@@ -200,7 +200,7 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Thursday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "8:00PM"
   },
   {
     "DayOfTheWeek": "Thursday",
@@ -218,7 +218,7 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Friday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "8:00PM"
   },
   {
     "DayOfTheWeek": "Friday",
@@ -229,8 +229,8 @@ const Weeklyclasses = [
   {
     "DayOfTheWeek": "Saturday",
     "ClassName": "BoxStrong",
-    "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "Start_Time": "10:00AM",
+    "End_Time": "11:30AM"
   }
 
 ];
