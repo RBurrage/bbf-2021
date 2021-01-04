@@ -47,6 +47,100 @@ const classes = [
 ];
 
 //Weekly Classes
+// const Weeklyclasses = [
+//   {
+//     "DayOfTheWeek": "Monday",
+//     "ClassName": "Open Gym",
+//     "Start_Time": "3:00PM",
+//     "End_Time": "5:30PM"
+//   },
+//   {
+//     "DayOfTheWeek": "Monday",
+//     "ClassName": "Boxercise/Technique",
+//     "Start_Time": "5:30PM",
+//     "End_Time": "6:30PM"
+//   },
+//   {
+//     "DayOfTheWeek": "Monday",
+//     "ClassName": "BoxStrong",
+//     "Start_Time": "7:00PM",
+//     "End_Time": "8:30PM"
+//   },  
+//   {
+//     "DayOfTheWeek": "Tuesday",
+//     "ClassName": "Open Gym",
+//     "Start_Time": "3:00PM",
+//     "End_Time": "5:30PM"
+//   },
+//   {
+//     "DayOfTheWeek": "Tuesday",
+//     "ClassName": "Boxercise/Technique",
+//     "Start_Time": "5:30PM",
+//     "End_Time": "6:30PM"
+//   },
+//   {
+//     "DayOfTheWeek": "Tuesday",
+//     "ClassName": "BoxStrong",
+//     "Start_Time": "7:00PM",
+//     "End_Time": "8:30PM"
+//   },    
+//   {
+//     "DayOfTheWeek": "Wednesday",
+//     "ClassName": "Open Gym",
+//     "Start_Time": "3:00PM",
+//     "End_Time": "5:30PM"
+//   },
+//   {
+//     "DayOfTheWeek": "Wednesday",
+//     "ClassName": "Boxercise/Technique",
+//     "Start_Time": "5:30PM",
+//     "End_Time": "6:30PM"
+//   },
+//   {
+//     "DayOfTheWeek": "Wednesday",
+//     "ClassName": "BoxStrong",
+//     "Start_Time": "7:00PM",
+//     "End_Time": "8:30PM"
+//   },    
+//   {
+//     "DayOfTheWeek": "Thursday",
+//     "ClassName": "Open Gym",
+//     "Start_Time": "3:00PM",
+//     "End_Time": "5:30PM"
+//   },
+//   {
+//     "DayOfTheWeek": "Thursday",
+//     "ClassName": "Boxercise/Technique",
+//     "Start_Time": "5:30PM",
+//     "End_Time": "6:30PM"
+//   },
+//   {
+//     "DayOfTheWeek": "Thursday",
+//     "ClassName": "BoxStrong",
+//     "Start_Time": "7:00PM",
+//     "End_Time": "8:30PM"
+//   },   
+//   {
+//     "DayOfTheWeek": "Friday",
+//     "ClassName": "Open Gym",
+//     "Start_Time": "3:00PM",
+//     "End_Time": "5:30PM"
+//   },
+//   {
+//     "DayOfTheWeek": "Friday",
+//     "ClassName": "BoxStrong",
+//     "Start_Time": "5:30PM",
+//     "End_Time": "7:00PM"
+//   },
+//   {
+//     "DayOfTheWeek": "Saturday",
+//     "ClassName": "BoxStrong",
+//     "Start_Time": "10:00AM",
+//     "End_Time": "11:30AM"
+//   }
+
+// ];
+
 const Weeklyclasses = [
   {
     "DayOfTheWeek": "Monday",
@@ -57,14 +151,14 @@ const Weeklyclasses = [
   {
     "DayOfTheWeek": "Monday",
     "ClassName": "Boxercise/Technique",
-    "Start_Time": "5:30PM",
-    "End_Time": "6:30PM"
+    "Start_Time": "Starts",
+    "End_Time": "1/11"
   },
   {
     "DayOfTheWeek": "Monday",
     "ClassName": "BoxStrong",
-    "Start_Time": "7:00PM",
-    "End_Time": "8:30PM"
+    "Start_Time": "Starts",
+    "End_Time": "1/11"
   },  
   {
     "DayOfTheWeek": "Tuesday",
@@ -75,14 +169,14 @@ const Weeklyclasses = [
   {
     "DayOfTheWeek": "Tuesday",
     "ClassName": "Boxercise/Technique",
-    "Start_Time": "5:30PM",
-    "End_Time": "6:30PM"
+    "Start_Time": "Starts",
+    "End_Time": "1/11"
   },
   {
     "DayOfTheWeek": "Tuesday",
     "ClassName": "BoxStrong",
-    "Start_Time": "7:00PM",
-    "End_Time": "8:30PM"
+    "Start_Time": "Starts",
+    "End_Time": "1/11"
   },    
   {
     "DayOfTheWeek": "Wednesday",
@@ -93,14 +187,14 @@ const Weeklyclasses = [
   {
     "DayOfTheWeek": "Wednesday",
     "ClassName": "Boxercise/Technique",
-    "Start_Time": "5:30PM",
-    "End_Time": "6:30PM"
+    "Start_Time": "Starts",
+    "End_Time": "1/11"
   },
   {
     "DayOfTheWeek": "Wednesday",
     "ClassName": "BoxStrong",
-    "Start_Time": "7:00PM",
-    "End_Time": "8:30PM"
+    "Start_Time": "Starts",
+    "End_Time": "1/11"
   },    
   {
     "DayOfTheWeek": "Thursday",
@@ -111,14 +205,14 @@ const Weeklyclasses = [
   {
     "DayOfTheWeek": "Thursday",
     "ClassName": "Boxercise/Technique",
-    "Start_Time": "5:30PM",
-    "End_Time": "6:30PM"
+    "Start_Time": "Starts",
+    "End_Time": "1/11"
   },
   {
     "DayOfTheWeek": "Thursday",
     "ClassName": "BoxStrong",
-    "Start_Time": "7:00PM",
-    "End_Time": "8:30PM"
+    "Start_Time": "Starts",
+    "End_Time": "1/11"
   },   
   {
     "DayOfTheWeek": "Friday",
@@ -129,17 +223,19 @@ const Weeklyclasses = [
   {
     "DayOfTheWeek": "Friday",
     "ClassName": "BoxStrong",
-    "Start_Time": "5:30PM",
-    "End_Time": "7:00PM"
+    "Start_Time": "Starts",
+    "End_Time": "1/11"
   },
   {
     "DayOfTheWeek": "Saturday",
     "ClassName": "BoxStrong",
-    "Start_Time": "10:00AM",
-    "End_Time": "11:30AM"
+    "Start_Time": "Starts",
+    "End_Time": "1/11"
   }
 
 ];
+
+
 
 const WeeklyEventDate = function (DayOfTheWeek, Start_Time, End_Time, ClassName, ClassDescription) {
   this.DayOfTheWeek = DayOfTheWeek || "";
