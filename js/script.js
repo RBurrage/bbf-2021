@@ -42,7 +42,7 @@ const classes = [
   },
   {
   "ClassName": "Open Gym",
-  "ClassDescription": "90-minute Maximum Workout, Social Distancing Required, 15 Person Capacity, Reservations Required: Email or message on FaceBook to reserve a spot."
+  "ClassDescription": "90-minute Maximum Workout, Social Distancing Required, 15 Person Capacity, <strong>Reservations Required: You <u>must</u> email or message on FaceBook to reserve a spot.</strong>"
   }
 ];
 
@@ -152,13 +152,13 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Monday",
     "ClassName": "Boxercise/Technique",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },
   {
     "DayOfTheWeek": "Monday",
     "ClassName": "BoxStrong",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },  
   {
     "DayOfTheWeek": "Tuesday",
@@ -170,13 +170,13 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Tuesday",
     "ClassName": "Boxercise/Technique",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },
   {
     "DayOfTheWeek": "Tuesday",
     "ClassName": "BoxStrong",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },    
   {
     "DayOfTheWeek": "Wednesday",
@@ -188,13 +188,13 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Wednesday",
     "ClassName": "Boxercise/Technique",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },
   {
     "DayOfTheWeek": "Wednesday",
     "ClassName": "BoxStrong",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },    
   {
     "DayOfTheWeek": "Thursday",
@@ -206,13 +206,13 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Thursday",
     "ClassName": "Boxercise/Technique",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },
   {
     "DayOfTheWeek": "Thursday",
     "ClassName": "BoxStrong",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },   
   {
     "DayOfTheWeek": "Friday",
@@ -224,13 +224,13 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Friday",
     "ClassName": "BoxStrong",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },
   {
     "DayOfTheWeek": "Saturday",
     "ClassName": "BoxStrong",
-    "Start_Time": "10:00AM",
-    "End_Time": "11:30AM"
+    "Start_Time": "Starts",
+    "End_Time": "2/1"
   }
 
 ];
