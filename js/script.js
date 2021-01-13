@@ -42,7 +42,7 @@ const classes = [
   },
   {
   "ClassName": "Open Gym",
-  "ClassDescription": "90-minute Maximum Workout, Social Distancing Required, 15 Person Capacity, Reservations Required: Email or message on FaceBook to reserve a spot."
+  "ClassDescription": "90-minute Maximum Workout, Social Distancing Required, 15 Person Capacity, <strong>Reservations Required: You <u>must</u> email or message on FaceBook to reserve a spot.</strong>"
   }
 ];
 
@@ -146,91 +146,91 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Monday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "8:00PM"
   },
   {
     "DayOfTheWeek": "Monday",
     "ClassName": "Boxercise/Technique",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },
   {
     "DayOfTheWeek": "Monday",
     "ClassName": "BoxStrong",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },  
   {
     "DayOfTheWeek": "Tuesday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "8:00PM"
   },
   {
     "DayOfTheWeek": "Tuesday",
     "ClassName": "Boxercise/Technique",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },
   {
     "DayOfTheWeek": "Tuesday",
     "ClassName": "BoxStrong",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },    
   {
     "DayOfTheWeek": "Wednesday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "8:00PM"
   },
   {
     "DayOfTheWeek": "Wednesday",
     "ClassName": "Boxercise/Technique",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },
   {
     "DayOfTheWeek": "Wednesday",
     "ClassName": "BoxStrong",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },    
   {
     "DayOfTheWeek": "Thursday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "8:00PM"
   },
   {
     "DayOfTheWeek": "Thursday",
     "ClassName": "Boxercise/Technique",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },
   {
     "DayOfTheWeek": "Thursday",
     "ClassName": "BoxStrong",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },   
   {
     "DayOfTheWeek": "Friday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "8:00PM"
   },
   {
     "DayOfTheWeek": "Friday",
     "ClassName": "BoxStrong",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   },
   {
     "DayOfTheWeek": "Saturday",
     "ClassName": "BoxStrong",
     "Start_Time": "Starts",
-    "End_Time": "1/11"
+    "End_Time": "2/1"
   }
 
 ];

@@ -523,7 +523,7 @@ body {
   color: #fff; }
 
 a {
-  color: #ffb900;
+  color: #2998ff;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -651,6 +651,12 @@ select {
   border: none;
   padding: 0 10px;
   outline: 1px solid transparent; }
+
+.alert-box {
+  background: #B71C1D;
+  padding: 20px 100px 20px 20px;
+  text-align: center;
+  color: #fff; }
 
 .section-about {
   padding: 25rem 0 10rem;
@@ -794,6 +800,11 @@ select {
 
 .composition {
   position: relative; }
+  @media only screen and (max-width: 56.25em) {
+    .composition {
+      position: static;
+      display: flex;
+      flex-direction: column; } }
   .composition__photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
@@ -809,6 +820,9 @@ select {
         position: relative;
         width: 33.33333%;
         box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); } }
+    @media only screen and (max-width: 37.5em) {
+      .composition__photo {
+        width: 100%; } }
     .composition__photo--p1 {
       left: 0;
       top: -2rem; }
@@ -849,7 +863,7 @@ select {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
   .feature-box a {
-    color: #1094F4; }
+    color: #2998ff; }
   .feature-box p {
     line-height: 2.25rem; }
   .feature-box.dark-bg {
@@ -1089,13 +1103,13 @@ select {
     .footer__item:not(:last-child) {
       margin-right: 1.5rem; }
   .footer__link:link, .footer__link:visited {
-    color: #1094F4;
+    color: #2998ff;
     background-color: #color-grey-dark-3;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block; }
   .footer__link:hover, .footer__link:active {
-    color: #fff; }
+    text-decoration: underline; }
   .footer__copyright {
     width: 80%;
     float: right; }
@@ -1327,10 +1341,6 @@ select {
 
 .slideOut .plusSign:after {
   content: "\002B"; }
-
-.slideOut a {
-  color: #B71C1D;
-  text-decoration: none; }
 
 .classItem {
   margin: 15px 0;

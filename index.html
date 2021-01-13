@@ -1,709 +1,535 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&family=Permanent+Marker&family=Rock+Salt&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+  <meta http-equiv="pragma" content="no-cache" />
 
-    <!-- UNCOMMENT THIS LINE FOR DEVELOPMENT 
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Permanent+Marker&family=Rock+Salt&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- UNCOMMENT THIS LINE FOR DEVELOPMENT 
     <link rel="stylesheet" href="css/icon-font.css" />-->
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
-    <title>Boston Boxing &amp; Fitness</title>
-  </head>
+  <title>Boston Boxing &amp; Fitness</title>
+</head>
 
-  <body>
-    <div class="navigation">
-      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
-      <label for="navi-toggle" class="navigation__btn"
-        ><span class="navigation__icon">&nbsp;</span></label
-      >
+<body>
+  <div class="alert-box"><p><strong>ATTENTION:</strong> The COVID-19 lockdown has been extended to February 1. We will be holding <strong>Open Gym Hours and private lessons ONLY</strong> until then. Anyone interested in coming to OPEN GYM HOURS <u>must</u> email or message the gym beforehand. Thank you for your understanding and patience.</p></div>
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+    <label for="navi-toggle" class="navigation__btn"><span class="navigation__icon">&nbsp;</span></label>
 
-      <div class="navigation__background">&nbsp;</div>
+    <div class="navigation__background">&nbsp;</div>
 
-      <nav class="navigation__nav">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="#about" class="navigation__link">About Us</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#membership" class="navigation__link">Membership</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#boxingAndFitness" class="navigation__link"
-              >Boxing &amp; Fitness</a
-            >
-          </li>
-          <li class="navigation__item">
-            <a href="#teamTraining" class="navigation__link"
-              >Team Training &amp; Fight Nights</a
-            >
-          </li>
-          <li class="navigation__item">
-            <a href="#charity" class="navigation__link"
-              >Support the Community</a
-            >
-          </li>
-          <li class="navigation__item">
-            <a href="#fullClassSchedule" class="navigation__link"
-              >Class Schedule</a
-            >
-          </li>
-          <li class="navigation__item">
-            <a href="#leaseGym" class="navigation__link">SUBLEASE THE GYM</a>
-          </li>
-        </ul>
-      </nav>
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#about" class="navigation__link">About Us</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#membership" class="navigation__link">Membership</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#boxingAndFitness" class="navigation__link">Boxing &amp; Fitness</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#teamTraining" class="navigation__link">Team Training &amp; Fight Nights</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#charity" class="navigation__link">Support the Community</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#fullClassSchedule" class="navigation__link">Class Schedule</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#leaseGym" class="navigation__link">SUBLEASE THE GYM</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="header">
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <img src="img/logo.svg" alt="Logo" class="header__logo" />
+        <span class="heading-primary--main">Boston Boxing &amp; Fitness</span>
+        <span class="heading-primary--sub">Are you ready to sweat?</span>
+      </h1>
+      <p><a href="https://www.facebook.com/ed.lavache" target="_blank"><img src="img/facebook-logo.png"
+            width="50px"></a></p>
     </div>
+  </header>
 
-    <header class="header">
-      <div class="header__text-box">
-        <h1 class="heading-primary">
-          <img src="img/logo.svg" alt="Logo" class="header__logo" />
-          <span class="heading-primary--main">Boston Boxing &amp; Fitness</span>
-          <span class="heading-primary--sub">Are you ready to sweat?</span>
-        </h1>
-        <p><a href="https://www.facebook.com/ed.lavache" target="_blank"><img src="img/facebook-logo.png" width="50px"></a></p>
+  <main>
+    <section class="section-about" id="about">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">About Boston Boxing</h2>
       </div>
-    </header>
+      <div class="row">
+        <div class="col-1-of-2">
+          <p class="section-sub">
+            <strong>Get in the Best Shape of Your Life</strong>
+          </p>
+          <p class="paragraph">
+            The boxer's workout is the toughest regimen in sports and a great
+            way to get into shape. With a focus on strength and conditioning,
+            boxing offers a unique and motivating alternative to the standard
+            gym workout.
+          </p>
+          <p class="paragraph">
+            A fully licensed, fully insured full-time Olympic boxing training
+            center sanctioned through USA Boxing, Inc., Boston Boxing is
+            staffed with trainers who are 100% focused on your fitness and
+            safety. Our classes, taught by certified USA boxing instructors,
+            are for all levels, and our on-staff strength coaches will design
+            a conditioning and strengthening program specifically for you.
+          </p>
+          <p class="paragraph">
+            Whether you are focused on boxing competitively or recreationally
+            we will train and prepare you and after you have mastered proper
+            stance, punches, defense and conditioning, you will be eligible to
+            spar.
+          </p>
+        </div>
+        <div class="col-1-of-2">
+          <div class="composition">
+            <img src="img/8.jpg" alt="Photo 1" class="composition__photo composition__photo--p1" />
+            <img src="img/15.jpg" alt="Photo 2" class="composition__photo composition__photo--p2" />
+            <img src="img/x17.jpg" alt="Photo 3" class="composition__photo composition__photo--p3" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <main>
-      <section class="section-about" id="about">
+    <section class="section-membership" id="membership">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">
+          <span>Choose Your Membership</span>
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-1-of-3">
+          <div class="feature-box">
+            <img src="img/workout.svg" width="50%" />
+            <h3 class="heading-teriary u-margin-bottom-small">
+              Standard Membership
+            </h3>
+            <div class="feature-box__text">
+              Do your own thing, from weight training to classes to sparring
+              in the ring.
+            </div>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input type="hidden" name="hosted_button_id" value="KACRQGT9Z98QN" />
+              <table>
+                <tr>
+                  <td>
+                    <input type="hidden" name="on0" value="Become a member today!" />Become a member today!
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <select name="os0">
+                      <option value="1 Month">1 Month $79.00 USD</option>
+                      <option value="3 Month">3 Month $210.00 USD</option>
+                      <option value="6 Month">6 Month $370.00 USD</option>
+                      <option value="1 Year">1 Year $615.00 USD</option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+              <input type="hidden" name="currency_code" value="USD" />
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0"
+                name="submit" alt="PayPal - The safer, easier way to pay online!" />
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+          </div>
+        </div>
+        <div class="col-1-of-3">
+          <div class="feature-box">
+            <img src="img/calendar.svg" width="50%" />
+            <h3 class="heading-teriary u-margin-bottom-small">
+              Classes Only
+            </h3>
+            <div class="feature-box__text">
+              Choose from a number of scheduled classes that fit your busy
+              lifestyle.
+            </div>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input type="hidden" name="hosted_button_id" value="PCEZ3LWYTMYRA" />
+              <table>
+                <tr>
+                  <td>
+                    <input type="hidden" name="on0" value="Take some scheduled classes!" />Take some scheduled classes!
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <select name="os0">
+                      <option value="1 single class">
+                        1 class $15.00 USD
+                      </option>
+                      <option value="5-pack">5-pack $70.00 USD</option>
+                      <option value="10-pack">10-pack $125.00 USD</option>
+                      <option value="20-pack">20-pack $190.00 USD</option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+              <input type="hidden" name="currency_code" value="USD" />
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0"
+                name="submit" alt="PayPal - The safer, easier way to pay online!" />
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+          </div>
+        </div>
+        <div class="col-1-of-3">
+          <div class="feature-box">
+            <img src="img/boxing.svg" width="50%" />
+            <h3 class="heading-teriary u-margin-bottom-small">
+              Private Lessons
+            </h3>
+            <div class="feature-box__text">
+              Train one-on-one with one of our certified USA boxing
+              instructors.
+            </div>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input type="hidden" name="hosted_button_id" value="FA8VNQAJ26JXC" />
+              <table>
+                <tr>
+                  <td>
+                    <input type="hidden" name="on0" value="Work privately with a trainer!" />Work privately with a
+                    trainer!
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <select name="os0">
+                      <option value="1 Lesson">1 Lesson $75.00 USD</option>
+                      <option value="5-pack">5-pack $325.00 USD</option>
+                      <option value="10-pack">10-pack $500.00 USD</option>
+                      <option value="20-pack">20-pack $800.00 USD</option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+              <input type="hidden" name="currency_code" value="USD" />
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0"
+                name="submit" alt="PayPal - The safer, easier way to pay online!" />
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="vsl">
+          <p class="support-header">
+            Need equipment? Fulfill all of your boxing needs at
+            <a href="https://vslfighting.com/" target="_blank">VSL Fighting</a>.<br /><br />
+            <a href="https://vslfighting.com/" target="_blank"><img src="img/vsl-logo.png" /></a><br />
+            <a href="https://vslfighting.com/" target="_blank"><img src="img/fight-love-repeat.png" /></a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-boxing" id="boxingAndFitness">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">Boxing &amp; Fitness</h2>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <p class="section-sub">Boxing</p>
+          <p>
+            <strong>Competive</strong><br />
+            A fully licensed and fully insured full-time Olympic Boxing
+            Training Center sanctioned through USA Boxing, Inc., we are 100%
+            focused on member safety and fitness. With a focus on building
+            champions, our trainers have over fifty years of combined boxing
+            experience.
+          </p>
+          <p>
+            <strong>Non-competive</strong><br />
+            If you are interested in training without sparring, we will
+            accommodate you. Train as hard as our competitive boxers, learn
+            from the same instructors, and attend the same fundamentals
+            workshops. The true boxing experience is always in the training.
+          </p>
+        </div>
+        <div class="col-1-of-2">
+          <p class="section-sub">Fitness</p>
+          <p>
+            <strong>Strength &amp; Conditioning</strong><br />
+            Learn proper technique and increase strength, stamina, and muscle
+            mass with our on-staff strength coaches (included in membership).
+            Whether you're an athlete preparing for an upcoming season or just
+            looking for a change to the same old lifting and treadmill routine
+            our strength and conditioning program is your answer to extreme
+            health and well-being.
+          </p>
+
+          <p>
+            <strong>Athlete Training</strong><br />
+            If your sports team needs a competitive change to its usual
+            conditioning routine, or if you are an athlete preparing for an
+            upcoming high school or college sports season? Our trainers will
+            give you a competitive edge, explosion off the line, core power
+            and hand speed with a specialized program designed for your
+            success to get you off the bench and into the game!
+          </p>
+        </div>
+      </div>
+
+      <section class="section-team-training u-margin-bottom-big" id="teamTraining">
         <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">About Boston Boxing</h2>
+          <h2 class="heading-secondary">Team Training &amp; Fight Nights</h2>
         </div>
         <div class="row">
           <div class="col-1-of-2">
-            <p class="section-sub">
-              <strong>Get in the Best Shape of Your Life</strong>
+            <p class="paragraph">
+              Our three month Team Training program, open to beginner and
+              advanced boxers, offers you the opportunity to train like
+              boxers.
             </p>
             <p class="paragraph">
-              The boxer's workout is the toughest regimen in sports and a great
-              way to get into shape. With a focus on strength and conditioning,
-              boxing offers a unique and motivating alternative to the standard
-              gym workout.
+              Learn the footwork, speed, explosion, offense and defense drills
+              of elite level boxers. Work one-on-one with members of the same
+              experience level on safe and controlled sparring drills. Those
+              who continuously improve will be eligible to step into the ring
+              and compete in the Fight Night Qualifier and Fight Night Finale.
             </p>
             <p class="paragraph">
-              A fully licensed, fully insured full-time Olympic boxing training
-              center sanctioned through USA Boxing, Inc., Boston Boxing is
-              staffed with trainers who are 100% focused on your fitness and
-              safety. Our classes, taught by certified USA boxing instructors,
-              are for all levels, and our on-staff strength coaches will design
-              a conditioning and strengthening program specifically for you.
+              Team Training starts with a two week boot camp that meets three
+              times a week, after which the group is split into two teams.
+              Members are expected to continue meeting three times a week for
+              the duration of the program. Saturdays are competition days
+              where both teams compete against each other in fitness tests for
+              points. At the end, the team with the highest points will be
+              Team Training Champion.
             </p>
             <p class="paragraph">
-              Whether you are focused on boxing competitively or recreationally
-              we will train and prepare you and after you have mastered proper
-              stance, punches, defense and conditioning, you will be eligible to
-              spar.
+              Team Training is open to the public with the purchase of a three
+              month membership. Signup at the front desk.
             </p>
           </div>
           <div class="col-1-of-2">
             <div class="composition">
-              <img
-                src="img/8.jpg"
-                alt="Photo 1"
-                class="composition__photo composition__photo--p1"
-              />
-              <img
-                src="img/15.jpg"
-                alt="Photo 2"
-                class="composition__photo composition__photo--p2"
-              />
-              <img
-                src="img/x17.jpg"
-                alt="Photo 3"
-                class="composition__photo composition__photo--p3"
-              />
+              <img src="img/women-competing.jpg" alt="Photo 1" class="composition__photo composition__photo--p1" />
+              <img src="img/men-competing.jpg" alt="Photo 2" class="composition__photo composition__photo--p2" />
+              <img src="img/pushups.jpg" alt="Photo 3" class="composition__photo composition__photo--p3" />
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section-membership" id="membership">
-        <div class="u-center-text u-margin-bottom-big">
+      <section class="section-outreach popup__close-bg" id="charity">
+        <div class="u-center-text">
           <h2 class="heading-secondary">
-            <span>Choose Your Membership</span>
+            <span>Boston Boxing Community Outreach</span>
           </h2>
+          <p class="support-header">
+            Boston Boxing supports the
+            following local charities.
+          </p>
         </div>
+        <br />
+
         <div class="row">
           <div class="col-1-of-3">
             <div class="feature-box">
-              <img src="img/workout.svg" width="50%" />
-              <h3 class="heading-teriary u-margin-bottom-small">
-                Standard Membership
-              </h3>
-              <div class="feature-box__text">
-                Do your own thing, from weight training to classes to sparring
-                in the ring.
-              </div>
-              <form
-                action="https://www.paypal.com/cgi-bin/webscr"
-                method="post"
-                target="_blank"
-              >
+              <img class="outreach-logo" src="img/FSFL.png" alt="Fit Students for Life" />
+              <p>
+                For over 10 years, this free program for middle and high
+                school students teaches the importance of fitness and healthy
+                living through strength exercises and boxing technique, as
+                well as offering speed and explosion training for high school
+                athletes.<br><a href="mailto:info@bostonboxing.com">Contact us</a> for more information.
+              </p>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                 <input type="hidden" name="cmd" value="_s-xclick" />
-                <input
-                  type="hidden"
-                  name="hosted_button_id"
-                  value="KACRQGT9Z98QN"
-                />
-                <table>
-                  <tr>
-                    <td>
-                      <input
-                        type="hidden"
-                        name="on0"
-                        value="Become a member today!"
-                      />Become a member today!
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <select name="os0">
-                        <option value="1 Month">1 Month $79.00 USD</option>
-                        <option value="3 Month">3 Month $210.00 USD</option>
-                        <option value="6 Month">6 Month $370.00 USD</option>
-                        <option value="1 Year">1 Year $615.00 USD</option>
-                      </select>
-                    </td>
-                  </tr>
-                </table>
-                <input type="hidden" name="currency_code" value="USD" />
-                <input
-                  type="image"
-                  src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif"
-                  border="0"
-                  name="submit"
-                  alt="PayPal - The safer, easier way to pay online!"
-                />
-                <img
-                  alt=""
-                  border="0"
-                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                  width="1"
-                  height="1"
-                />
+                <input type="hidden" name="hosted_button_id" value="D8QURXZWWGL9C" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                  name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
               </form>
             </div>
           </div>
           <div class="col-1-of-3">
             <div class="feature-box">
-              <img src="img/calendar.svg" width="50%" />
-              <h3 class="heading-teriary u-margin-bottom-small">
-                Classes Only
-              </h3>
-              <div class="feature-box__text">
-                Choose from a number of scheduled classes that fit your busy
-                lifestyle.
-              </div>
-              <form
-                action="https://www.paypal.com/cgi-bin/webscr"
-                method="post"
-                target="_blank"
-              >
+              <img class="outreach-logo" src="img/rock-steady.png" alt="Rock Steady Boxing" />
+
+              <p>
+                This program provides Parkinson’s patients with an effective
+                form of exercise through non-contact boxing. Classes
+                accommodate varying degrees of Parkinson’s/fitness and are
+                geared towards improving quality of life and restoring a sense
+                of efficacy and self worth.
+                <a href="https://www.luckypunchboxing.com" target="_blank">www.luckypunchboxing.com</a>.
+              </p>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                 <input type="hidden" name="cmd" value="_s-xclick" />
-                <input
-                  type="hidden"
-                  name="hosted_button_id"
-                  value="PCEZ3LWYTMYRA"
-                />
-                <table>
-                  <tr>
-                    <td>
-                      <input
-                        type="hidden"
-                        name="on0"
-                        value="Take some scheduled classes!"
-                      />Take some scheduled classes!
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <select name="os0">
-                        <option value="1 single class">
-                          1 class $15.00 USD
-                        </option>
-                        <option value="5-pack">5-pack $70.00 USD</option>
-                        <option value="10-pack">10-pack $125.00 USD</option>
-                        <option value="20-pack">20-pack $190.00 USD</option>
-                      </select>
-                    </td>
-                  </tr>
-                </table>
-                <input type="hidden" name="currency_code" value="USD" />
-                <input
-                  type="image"
-                  src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif"
-                  border="0"
-                  name="submit"
-                  alt="PayPal - The safer, easier way to pay online!"
-                />
-                <img
-                  alt=""
-                  border="0"
-                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                  width="1"
-                  height="1"
-                />
+                <input type="hidden" name="hosted_button_id" value="D8QURXZWWGL9C" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                  name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
               </form>
             </div>
           </div>
           <div class="col-1-of-3">
             <div class="feature-box">
-              <img src="img/boxing.svg" width="50%" />
-              <h3 class="heading-teriary u-margin-bottom-small">
-                Private Lessons
-              </h3>
-              <div class="feature-box__text">
-                Train one-on-one with one of our certified USA boxing
-                instructors.
-              </div>
-              <form
-                action="https://www.paypal.com/cgi-bin/webscr"
-                method="post"
-                target="_blank"
-              >
+              <img class="outreach-logo" src="img/woa.svg" alt="Watertown Overcoming Addiction" />
+              <p>
+                Boston Boxing will be opening its doors to this community action group based out of Watertown, MA. We
+                will provide free memberships and workout programs to men and women suffering from addiction to drugs
+                and alcohol. <br>
+                <a href="mailto:info@bostonboxing.com">Contact us</a> for more
+                information.<br>&nbsp;
+              </p>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                 <input type="hidden" name="cmd" value="_s-xclick" />
-                <input
-                  type="hidden"
-                  name="hosted_button_id"
-                  value="FA8VNQAJ26JXC"
-                />
-                <table>
-                  <tr>
-                    <td>
-                      <input
-                        type="hidden"
-                        name="on0"
-                        value="Work privately with a trainer!"
-                      />Work privately with a trainer!
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <select name="os0">
-                        <option value="1 Lesson">1 Lesson $75.00 USD</option>
-                        <option value="5-pack">5-pack $325.00 USD</option>
-                        <option value="10-pack">10-pack $500.00 USD</option>
-                        <option value="20-pack">20-pack $800.00 USD</option>
-                      </select>
-                    </td>
-                  </tr>
-                </table>
-                <input type="hidden" name="currency_code" value="USD" />
-                <input
-                  type="image"
-                  src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif"
-                  border="0"
-                  name="submit"
-                  alt="PayPal - The safer, easier way to pay online!"
-                />
-                <img
-                  alt=""
-                  border="0"
-                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                  width="1"
-                  height="1"
-                />
+                <input type="hidden" name="hosted_button_id" value="D8QURXZWWGL9C" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                  name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
               </form>
             </div>
           </div>
         </div>
+
         <div class="row">
-          <div class="vsl">
-            <p class="support-header">
-              Need equipment? Fulfill all of your boxing needs at
-              <a href="https://vslfighting.com/" target="_blank">VSL Fighting</a
-              >.<br /><br />
-              <a href="https://vslfighting.com/" target="_blank"
-                ><img src="img/vsl-logo.png" /></a
-              ><br />
-              <a href="https://vslfighting.com/" target="_blank"
-                ><img src="img/fight-love-repeat.png"
-              /></a>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-boxing" id="boxingAndFitness">
-        <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">Boxing &amp; Fitness</h2>
-        </div>
-        <div class="row">
-          <div class="col-1-of-2">
-            <p class="section-sub">Boxing</p>
-            <p>
-              <strong>Competive</strong><br />
-              A fully licensed and fully insured full-time Olympic Boxing
-              Training Center sanctioned through USA Boxing, Inc., we are 100%
-              focused on member safety and fitness. With a focus on building
-              champions, our trainers have over fifty years of combined boxing
-              experience.
-            </p>
-            <p>
-              <strong>Non-competive</strong><br />
-              If you are interested in training without sparring, we will
-              accommodate you. Train as hard as our competitive boxers, learn
-              from the same instructors, and attend the same fundamentals
-              workshops. The true boxing experience is always in the training.
-            </p>
-          </div>
-          <div class="col-1-of-2">
-            <p class="section-sub">Fitness</p>
-            <p>
-              <strong>Strength &amp; Conditioning</strong><br />
-              Learn proper technique and increase strength, stamina, and muscle
-              mass with our on-staff strength coaches (included in membership).
-              Whether you're an athlete preparing for an upcoming season or just
-              looking for a change to the same old lifting and treadmill routine
-              our strength and conditioning program is your answer to extreme
-              health and well-being.
-            </p>
-
-            <p>
-              <strong>Athlete Training</strong><br />
-              If your sports team needs a competitive change to its usual
-              conditioning routine, or if you are an athlete preparing for an
-              upcoming high school or college sports season? Our trainers will
-              give you a competitive edge, explosion off the line, core power
-              and hand speed with a specialized program designed for your
-              success to get you off the bench and into the game!
-            </p>
-          </div>
-        </div>
-
-        <section
-          class="section-team-training u-margin-bottom-big"
-          id="teamTraining"
-        >
-          <div class="u-center-text u-margin-bottom-big">
-            <h2 class="heading-secondary">Team Training &amp; Fight Nights</h2>
-          </div>
-          <div class="row">
-            <div class="col-1-of-2">
-              <p class="paragraph">
-                Our three month Team Training program, open to beginner and
-                advanced boxers, offers you the opportunity to train like
-                boxers.
-              </p>
-              <p class="paragraph">
-                Learn the footwork, speed, explosion, offense and defense drills
-                of elite level boxers. Work one-on-one with members of the same
-                experience level on safe and controlled sparring drills. Those
-                who continuously improve will be eligible to step into the ring
-                and compete in the Fight Night Qualifier and Fight Night Finale.
-              </p>
-              <p class="paragraph">
-                Team Training starts with a two week boot camp that meets three
-                times a week, after which the group is split into two teams.
-                Members are expected to continue meeting three times a week for
-                the duration of the program. Saturdays are competition days
-                where both teams compete against each other in fitness tests for
-                points. At the end, the team with the highest points will be
-                Team Training Champion.
-              </p>
-              <p class="paragraph">
-                Team Training is open to the public with the purchase of a three
-                month membership. Signup at the front desk.
-              </p>
-            </div>
-            <div class="col-1-of-2">
-              <div class="composition">
-                <img
-                  src="img/women-competing.jpg"
-                  alt="Photo 1"
-                  class="composition__photo composition__photo--p1"
-                />
-                <img
-                  src="img/men-competing.jpg"
-                  alt="Photo 2"
-                  class="composition__photo composition__photo--p2"
-                />
-                <img
-                  src="img/pushups.jpg"
-                  alt="Photo 3"
-                  class="composition__photo composition__photo--p3"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="section-outreach popup__close-bg" id="charity">
           <div class="u-center-text">
-            <h2 class="heading-secondary">
-              <span>Boston Boxing Community Outreach</span>
-            </h2>
-            <p class="support-header">
-              Boston Boxing supports the
-              following local charities.
+            <h2 class="heading-secondary"><span>Become a sponsor</span></h2>
+          </div>
+          <p class="paragraph">Boston Boxing is reaching out to local businesses as a means of raising money for our
+            charities through advertising and sponsorship opportunities during our Fight Nights. We offer the following
+            options for sponsorship:</p>
+          <div>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Fight Night Program Ad</th>
+                  <th scope="col">Fight Night Banner</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>$75/coupon (+25 for color)</td>
+                  <td>$500/Banner in the gym</td>
+                </tr>
+                <tr>
+                  <td scope="row">$300/full page (+25 for color)</td>
+                  <td>Your own table at Fight Night</td>
+                </tr>
+                <tr>
+                  <td scope="row">$125 1/4 page (+25 for color)</td>
+                  <td>A featured sponsor ad</td>
+                </tr>
+                <tr>
+                  <td scope="row">$200 1/2 page (+25 for color)</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="paragraph">
+              <a href="mailto:info@bostonboxing.com">Email us</a> for more
+              information, and stop by the gym any Monday evening at 6pm for a
+              complimentary class.
             </p>
-          </div>
-          <br />
-
-          <div class="row">
-            <div class="col-1-of-3">
-              <div class="feature-box">
-                <img
-                  class="outreach-logo"
-                  src="img/FSFL.png"
-                  alt="Fit Students for Life"
-                />
-                <p>
-                  For over 10 years, this free program for middle and high
-                  school students teaches the importance of fitness and healthy
-                  living through strength exercises and boxing technique, as
-                  well as offering speed and explosion training for high school
-                  athletes.<br><a href="mailto:info@bostonboxing.com">Contact us</a> for more information.
-                </p>
-                <form
-                  action="https://www.paypal.com/cgi-bin/webscr"
-                  method="post"
-                  target="_blank"
-                >
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input
-                    type="hidden"
-                    name="hosted_button_id"
-                    value="D8QURXZWWGL9C"
-                  />
-                  <input
-                    type="image"
-                    src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-                    border="0"
-                    name="submit"
-                    title="PayPal - The safer, easier way to pay online!"
-                    alt="Donate with PayPal button"
-                  />
-                  <img
-                    alt=""
-                    border="0"
-                    src="https://www.paypal.com/en_US/i/scr/pixel.gif"
-                    width="1"
-                    height="1"
-                  />
-                </form>
-              </div>
-            </div>
-            <div class="col-1-of-3">
-              <div class="feature-box">
-                <img
-                  class="outreach-logo"
-                  src="img/rock-steady.png"
-                  alt="Rock Steady Boxing"
-                />
-
-                <p>
-                  This program provides Parkinson’s patients with an effective
-                  form of exercise through non-contact boxing. Classes
-                  accommodate varying degrees of Parkinson’s/fitness and are
-                  geared towards improving quality of life and restoring a sense
-                  of efficacy and self worth. 
-                  <a href="https://www.luckypunchboxing.com" target="_blank"
-                    >www.luckypunchboxing.com</a
-                  >.
-                </p>
-                <form
-                  action="https://www.paypal.com/cgi-bin/webscr"
-                  method="post"
-                  target="_blank"
-                >
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input
-                    type="hidden"
-                    name="hosted_button_id"
-                    value="D8QURXZWWGL9C"
-                  />
-                  <input
-                    type="image"
-                    src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-                    border="0"
-                    name="submit"
-                    title="PayPal - The safer, easier way to pay online!"
-                    alt="Donate with PayPal button"
-                  />
-                  <img
-                    alt=""
-                    border="0"
-                    src="https://www.paypal.com/en_US/i/scr/pixel.gif"
-                    width="1"
-                    height="1"
-                  />
-                </form>
-              </div>
-            </div>
-            <div class="col-1-of-3">
-              <div class="feature-box">
-                <img
-                  class="outreach-logo"
-                  src="img/woa.svg"
-                  alt="Watertown Overcoming Addiction"
-                />
-                <p>
-                  Boston Boxing will be opening its doors to this community action group based out of Watertown, MA. We will provide free memberships and workout programs to men and women suffering from addiction to drugs and alcohol. <br>
-                  <a href="mailto:info@bostonboxing.com">Contact us</a> for more
-                  information.<br>&nbsp;
-                </p>
-                <form
-                  action="https://www.paypal.com/cgi-bin/webscr"
-                  method="post"
-                  target="_blank"
-                >
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input
-                    type="hidden"
-                    name="hosted_button_id"
-                    value="D8QURXZWWGL9C"
-                  />
-                  <input
-                    type="image"
-                    src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-                    border="0"
-                    name="submit"
-                    title="PayPal - The safer, easier way to pay online!"
-                    alt="Donate with PayPal button"
-                  />
-                  <img
-                    alt=""
-                    border="0"
-                    src="https://www.paypal.com/en_US/i/scr/pixel.gif"
-                    width="1"
-                    height="1"
-                  />
-                </form>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="u-center-text">
-              <h2 class="heading-secondary"><span>Become a sponsor</span></h2>
-            </div>
-            <p class="paragraph">Boston Boxing is reaching out to local businesses as a means of raising money for our charities through advertising and sponsorship opportunities during our Fight Nights. We offer the following options for sponsorship:</p>
-            <div>
-              <table>
-                <thead>
-                  <tr>
-                    <th scope="col">Fight Night Program Ad</th>
-                    <th scope="col">Fight Night Banner</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>$75/coupon (+25 for color)</td>
-                    <td>$500/Banner in the gym</td>
-                  </tr>
-                  <tr>
-                    <td scope="row">$300/full page (+25 for color)</td>
-                    <td>Your own table at Fight Night</td>
-                  </tr>
-                  <tr>
-                    <td scope="row">$125 1/4 page (+25 for color)</td>
-                    <td>A featured sponsor ad</td>
-                  </tr>
-                  <tr>
-                    <td scope="row">$200 1/2 page (+25 for color)</td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              <p class="paragraph">              
-                <a href="mailto:info@bostonboxing.com">Email us</a> for more
-                information, and stop by the gym any Monday evening at 6pm for a
-                complimentary class. </p>
-            </div>
-          </div>
-        </section>
-
-        <!--CLASS SCHEDULE-->
-        <div class="section-schedule" id="fullClassSchedule">
-          <div class="u-center-text u-margin-bottom-big">
-            <h2 class="heading-secondary">Class Schedule</h2>
-          </div>
-          <div class="row">
-            <div>
-              <!--WEEKLY CLASSES-->
-              <div class="fullSched"></div>
-            </div>
           </div>
         </div>
       </section>
-    </main>
 
-    <footer id="leaseGym" class="footer">
-      <div class="row">
-        <div class="col-2-of-3 lease-gym">
-          <div class="footer__navigation">
-            <h2 class="heading-teriary">
-              Sublease Boston Boxing &amp; Fitness
-            </h2>
-            <h3>LOOKING FOR A PLACE TO TRAIN YOUR CLIENTS?</h3>
-
-            Our 4,500 square foot space is empty every day until 3:00 p.m., all
-            day Sunday, and after 5:00 p.m. on Saturday. Use the space alone
-            during off hours or share it with Boston Boxing members during
-            regular gym hours. Pricing includes heat, electricity, and use of
-            equipment. Parking is free.
-            <a class="footer__link" href="mailto:info@bostonboxing.com"
-              >Email</a
-            >
-            us for more details.<br /><br />
-
-            <strong>Small Group (1-2 people):</strong> $350/month<br />
-            <strong>Medium Group (3-6 people):</strong> $600/month<br />
-            <strong>Large Group (6+ people):</strong> $950/month
-
-            <br /><br />
-          </div>
+      <!--CLASS SCHEDULE-->
+      <div class="section-schedule" id="fullClassSchedule">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Class Schedule</h2>
         </div>
-        <div class="col-1-of-3">
-          <div class="footer__navigation">
-            <h3>HOURS OF OPERATION:</h3>
-            Monday-Thursday: 3-10 pm<br />
-            Friday: 4-9 pm<br />
-            Saturday: 10:30-3 pm<br />
-            Sunday: Closed<br /><br />
-            <h3>CONTACT US:</h3>
-            100 Holton St., Brighton, MA 01235<br />
-            <a class="footer__link" href="tel:6179870142">(617)987-0142</a> |
-            <a class="footer__link" href="mailto:info@bostonboxing.com"
-              >info@bostonboxing.com</a
-            >
-            <br /><br /><small
-              >Boston Boxing &amp; Fitness. &copy;2021 - All rights
-              reserved.</small
-            >
+        <div class="row">
+          <div>
+            <a href="boston-boxing-at-home-workouts.pdf" target="_blank"><img src="img/pdf-icon.png"
+                    style="width: 12px">&nbsp;&nbsp;<span style="font-size: 16px">Boston Boxing at home
+                    workout</span></a><br>
+            <a href="boston-boxing-at-home-boxercise-workout.pdf" target="_blank"><img
+                    src="img/pdf-icon.png" style="width: 12px">&nbsp;&nbsp;<span
+                    style="font-size: 16px">Boston Boxing at home BOXERCISE workout</span></a>
+          </div>
+          <div>
+            <!--WEEKLY CLASSES-->
+            <div class="fullSched"></div>
           </div>
         </div>
       </div>
-    </footer>
+    </section>
+  </main>
 
-    <!--Today's Classes Slideout-->
-    <div class="slideOut">
-      <div class="slideOutTab">
-        <div>
-          <p></p>
+  <footer id="leaseGym" class="footer">
+    <div class="row">
+      <div class="col-2-of-3 lease-gym">
+        <div class="footer__navigation">
+          <h2 class="heading-teriary">
+            Sublease Boston Boxing &amp; Fitness
+          </h2>
+          <h3>LOOKING FOR A PLACE TO TRAIN YOUR CLIENTS?</h3>
+
+          Our 4,500 square foot space is empty every day until 3:00 p.m., all
+          day Sunday, and after 5:00 p.m. on Saturday. Use the space alone
+          during off hours or share it with Boston Boxing members during
+          regular gym hours. Pricing includes heat, electricity, and use of
+          equipment. Parking is free.
+          <a class="footer__link" href="mailto:info@bostonboxing.com">Email</a>
+          us for more details.<br /><br />
+
+          <strong>Small Group (1-2 people):</strong> $350/month<br />
+          <strong>Medium Group (3-6 people):</strong> $600/month<br />
+          <strong>Large Group (6+ people):</strong> $950/month
+
+          <br /><br />
         </div>
       </div>
-      <div class="slideout__content">
-        <div class="sliderSched" id="todaysClasses"></div>
+      <div class="col-1-of-3">
+        <div class="footer__navigation">
+          <h3>HOURS OF OPERATION:</h3>
+          Monday-Thursday: 3-10 pm<br />
+          Friday: 4-9 pm<br />
+          Saturday: 10:30-3 pm<br />
+          Sunday: Closed<br /><br />
+          <h3>CONTACT US:</h3>
+          100 Holton St., Brighton, MA 01235<br />
+          <a class="footer__link" href="tel:6179870142">(617)987-0142</a> |
+          <a class="footer__link" href="mailto:info@bostonboxing.com">info@bostonboxing.com</a>
+          <br /><br /><small>Boston Boxing &amp; Fitness. &copy;2021 - All rights
+            reserved.</small>
+        </div>
       </div>
     </div>
+  </footer>
 
-    <!--
+  <!--Today's Classes Slideout-->
+  <div class="slideOut">
+    <div class="slideOutTab">
+      <div>
+        <p></p>
+      </div>
+    </div>
+    <div class="slideout__content">
+      <div class="sliderSched" id="todaysClasses"></div>
+    </div>
+  </div>
+
+  <!--
         <section class="grid-test">
             <div class="row">
                 <div class="col-1-of-2">
@@ -766,7 +592,8 @@
                 </div>
             </div>
         </section>-->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
