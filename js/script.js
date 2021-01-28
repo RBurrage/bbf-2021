@@ -42,7 +42,7 @@ const classes = [
   },
   {
   "ClassName": "Open Gym",
-  "ClassDescription": "90-minute Maximum Workout, Social Distancing Required, 15 Person Capacity, <strong>Reservations Required: You <u>must</u> email or message on FaceBook to reserve a spot.</strong>"
+  "ClassDescription": "90-minute Maximum Workout, 15 Person Capacity"
   }
 ];
 

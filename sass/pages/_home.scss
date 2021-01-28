@@ -1,13 +1,13 @@
 .alert-box {
-  background: #0A8F24;
+  background: #DE2627;
   color: #fff;
-  font-size: 1.75rem;
-  width: 80vw;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 5000;
-  border-bottom-right-radius: 10px;
+  z-index: 1000;
+  padding: 1rem 10rem;
+
 
   a {
     color: $color-secondary-light
