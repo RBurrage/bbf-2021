@@ -207,7 +207,7 @@ select {
   outline: 1px solid transparent; }
 
 .alert-box {
-  background: #2998ff;
+  background: 0A8F24;
   color: #fff;
   font-size: 1.75rem;
   width: 80vw;
@@ -216,9 +216,6 @@ select {
   left: 0;
   z-index: 5000;
   border-bottom-right-radius: 10px; }
-  .alert-box span {
-    color: #ffb900;
-    font-weight: bold; }
   .alert-box a {
     color: #ffb900; }
 
