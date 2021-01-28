@@ -1,9 +1,22 @@
-
 .alert-box {
-  background:$color-primary-dark;
-  padding: 20px 100px 20px 20px;
-  text-align: center;
+  background: #2998ff;
   color: #fff;
+  font-size: 1.75rem;
+  width: 80vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5000;
+  border-bottom-right-radius: 10px;
+
+  span {
+    color: $color-secondary-light;
+    font-weight: bold;
+  }
+
+  a {
+    color: $color-secondary-light
+  }
 }
 .section-about {
   padding: 25rem 0 10rem;

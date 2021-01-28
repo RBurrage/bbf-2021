@@ -47,12 +47,12 @@
 
   &__text-box {
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 100%;
-    @include respond(phone) {
+    @include respond(tab-land) {
       top: 45%;
     }
   }
