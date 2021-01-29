@@ -210,11 +210,13 @@ select {
   background: #DE2627;
   color: #fff;
   width: 100%;
-  position: absolute;
   top: 0;
   left: 0;
   z-index: 1000;
   padding: 1rem 10rem; }
+  @media only screen and (max-width: 75em) {
+    .alert-box {
+      padding: 1rem 4rem; } }
   .alert-box a {
     color: #ffb900; }
 
@@ -822,7 +824,7 @@ select {
 
 .slideOut {
   position: fixed;
-  width: 260px;
+  width: 240px;
   height: auto;
   top: 12rem;
   right: 0;
@@ -852,7 +854,7 @@ select {
   cursor: pointer; }
 
 .hideSlideOut {
-  right: -260px !important; }
+  right: -240px !important; }
 
 .slideOut .slideOutTab {
   display: flex;
