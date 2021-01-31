@@ -264,12 +264,14 @@ select {
     padding: .35em; }
   .section-outreach table th,
   .section-outreach table td {
-    padding: 1em; }
+    padding: 1em;
+    border: 1px solid #ccc; }
   .section-outreach table th {
     font-size: .85em;
     letter-spacing: .1em;
     text-transform: uppercase;
-    text-align: left; }
+    text-align: left;
+    background: #B71C1D; }
 
 .section-boxing,
 .section-schedule {

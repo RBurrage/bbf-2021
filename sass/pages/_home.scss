@@ -78,6 +78,7 @@
   table th,
   table td {
     padding: 1em;
+    border: 1px solid #ccc;
   }
   
   table th {
@@ -85,6 +86,7 @@
     letter-spacing: .1em;
     text-transform: uppercase;
     text-align:left;
+    background: $color-primary-dark;
   }
   }
 .section-boxing,
