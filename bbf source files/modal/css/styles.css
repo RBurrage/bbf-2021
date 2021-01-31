@@ -1,0 +1,64 @@
+.features{color:green;font-style:italic} 
+.modal {
+    background-color: #000;
+    border: 2px solid #ccc;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.modal-header {
+    padding: 9px 15px;
+    border-bottom: none;
+    background: blue;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.modal-body {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.close:hover {
+    color: #CCC;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+.close {
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+}
+.close {
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFF;
+    text-shadow: none;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.black-friday-specials {
+    text-align: center;
+}
+form {
+    margin: 0 0 20px;
+    width: 230px;
+    margin: auto;
+}
+form td {
+    font-size: 20px;
+    font-weight:bold;
+    padding-bottom:10px;
+    color: #ff9900;
+}

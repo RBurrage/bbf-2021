@@ -33,15 +33,8 @@
 .section-membership,
 .section-outreach {
   padding: 20rem 0;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba($color-primary-light, 0.8),
-      rgba($color-primary-dark, 0.8)
-    ),
-    url(../img/boxing-glove.jpg);
   background-size: cover;
   transform: skewY(-7deg);
-  background-position: bottom;
 
   & > * {
     transform: skewY(7deg);
@@ -52,8 +45,25 @@
   }
 }
 
+.section-membership {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url(../img/boxing-glove.jpg);
+    background-position: bottom;
+}
+
 .section-outreach {
   margin-top: -16rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url(../img/silhouetted-person-atop-mountain.png);    
+    background-position: top;
 
   table {
     border: 1px solid #ccc;
@@ -87,6 +97,7 @@
     text-transform: uppercase;
     text-align:left;
     background: $color-primary-dark;
+    color: $color-white;
   }
   }
 .section-boxing,

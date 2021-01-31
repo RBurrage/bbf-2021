@@ -680,10 +680,8 @@ select {
 .section-membership,
 .section-outreach {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(183, 28, 29, 0.8)), url(../img/boxing-glove.jpg);
   background-size: cover;
-  transform: skewY(-7deg);
-  background-position: bottom; }
+  transform: skewY(-7deg); }
   .section-membership > *,
   .section-outreach > * {
     transform: skewY(7deg); }
@@ -692,8 +690,14 @@ select {
     .section-outreach {
       padding: 10rem 0; } }
 
+.section-membership {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(183, 28, 29, 0.8)), url(../img/boxing-glove.jpg);
+  background-position: bottom; }
+
 .section-outreach {
-  margin-top: -16rem; }
+  margin-top: -16rem;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(183, 28, 29, 0.8)), url(../img/silhouetted-person-atop-mountain.png);
+  background-position: top; }
   .section-outreach table {
     border: 1px solid #ccc;
     border-collapse: collapse;
@@ -717,7 +721,8 @@ select {
     letter-spacing: .1em;
     text-transform: uppercase;
     text-align: left;
-    background: #B71C1D; }
+    background: #B71C1D;
+    color: #fff; }
 
 .section-boxing,
 .section-schedule {

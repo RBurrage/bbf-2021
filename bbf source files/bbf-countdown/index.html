@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Boston Boxing &amp; Fitness</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author"><!-- CSS -->
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel=
+    "stylesheet">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body id="home">
+    <div id="header"></div><!--This is an include-->
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <div class="padding">
+                    <!--<p class="weather">HOLIDAY HOURS: The gym will be closing at 8:00pm on Wednesday, November 25, and will remain closed through Friday, November 27. Have a safe and happy Thanksgiving, and get back in here to burn off those holiday calories on Saturday!</p>-->
+                    <h4>Boston Boxing &amp; Fitness</h4>
+                    <p><img class="floated-image" src=
+                    "assets/img/bg-slides/17.jpg">The boxer's workout is the
+                    toughest regimen in sports and a great way to get into
+                    shape. With a focus on strength and conditioning, boxing
+                    offers a unique and motivating alternative to the standard
+                    gym workout.</p>
+                    <p>In addition to boxing, Boston Boxing & Fitness offers
+                    classes, weight training and personal training. A fully
+                    licensed, fully insured full-time Olympic boxing training
+                    center sanctioned through USA Boxing, Inc., the gym is
+                    staffed with trainers who are 100% focused on fitness and
+                    safety.</p>
+                    <p>Equipped with over 1,500 pounds of free weights, Boston
+                    Boxing & Fitness provides a full weight training
+                    experience. Our on-staff strength coaches will design a
+                    conditioning and strengthening program specifically for
+                    you.</p>
+                    <p>Whether you are focused on boxing competitively or
+                    recreationally we will train and prepare you with circuit
+                    training; coordination and conditioning exercises, heavy
+                    bag, speed bag and double-end bag drills, and one-on-one
+                    mitt work with a trainer in the ring. You will be eligible
+                    to spar, only after mastering proper stance, punches,
+                    defense and conditioning.</p>
+                    <p>Group classes taught by certified USA boxing instructors
+                    are available for all levels, and include a stretch
+                    designed to increase flexibility and prevent injury
+                    followed by a series of circuit training exercises to
+                    enhance coordination, strength and agility. Finally, you
+                    will put on your gloves for bag work.</p>
+                    <h4>Parking</h4>
+                    <p>We have plenty of parking in the lot in front of the gym
+                    as well as the lot next to the gym (fire fighter training
+                    center lot) and along the back of the building.</p>
+                    <p><img src="assets/img/parking.png" style=
+                    "width:100%;"></p>
+                </div><!--end padding-->
+            </div>
+            <div class="span4">
+                <div class="padding">
+                    <div style="text-align:center">
+                        <div class="countdown-wrapper">
+                            <div class="lead-in">
+                                Get Ready.<br>
+                                Get Serious.<br>
+                                GET FIT.
+                            </div>
+                            <div id="countdown"></div>
+                            <div class="days">
+                                DAYS LEFT
+                            </div>
+                            <div class="until">
+                                until the new year!
+                            </div>
+                            <div class="plan">
+                                Plan your 2016 fitness goals now!
+                            </div>
+                        </div><iframe frameborder="0" scrolling="yes" src=
+                        "http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F137649652944543&colorscheme=light&show_faces=false&border_color&stream=true&header=true&height=535"
+                        style=
+                        "overflow:hidden; height:550px; background: white;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div><!--This is an include-->
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.8.2.min.js">
+        </script> 
+        <script src="assets/bootstrap/js/bootstrap.min.js">
+        </script> <!--JS and CSS for Supersized Slide Show--> 
+        <script src="assets/supersized/js/supersized.3.2.7.min.js" type=
+        "text/javascript">
+        </script> 
+        <script src="assets/js/scripts.js" type="text/javascript">
+        </script> 
+        <script type="text/javascript">
+            $("#header").load("includes.html #header");
+            $("#footer").load("includes.html #footer",function(){               
+                todaysDate();
+                todaysClasses();
+            });
+        </script> 
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-51838241-1', 'auto');
+          ga('send', 'pageview');
+
+        </script> 
+    </div>
+</body>
+</html>

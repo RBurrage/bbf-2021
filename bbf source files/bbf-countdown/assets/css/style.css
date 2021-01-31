@@ -1,0 +1,526 @@
+body{
+	background:#000;
+	text-align:left;
+	font-family:'Open Sans',Helvetica,Arial,sans-serif;
+	color:#fff;
+	border-bottom:10px solid #b71c1d;
+	border-top:10px solid #b71c1d
+		}
+#home li.menu-home,#boxing-fitness li.menu-boxing-fitness,#team-training li.menu-team-training,#membership li.menu-membership,#class-schedule li.menu-class-schedule,#sublease li.menu-sublease{
+	background:#B71C1D
+}
+.box-fit-mini{
+	margin:5px 10px 0 0
+}
+.padding{
+	padding:0 20px 20px
+}
+.center-align{
+	text-align:center
+}
+.separator{
+	clear:both;
+	border-bottom:1px dashed red;
+	padding:0 0 20px
+}
+.violet{
+	color:#ED1D1C
+}
+#bbf-movie {
+	width:100%;
+	border:2px solid #3d7iframe7b2
+}
+#fb-feed iframe {
+	width: 70%;
+	margin: 20px auto;
+
+}
+#video-iframe{
+width:100%;
+}
+a{
+	color:#f90;
+	text-decoration:none;
+	-o-transition:all .3s;
+	-moz-transition:all .3s;
+	-webkit-transition:all .3s;
+	-ms-transition:all .3s
+}
+a:hover{
+	color:#B71C1D;
+	text-decoration:none
+}
+.button{
+	background:radial-gradient(ellipse at center center,#C71717 0%,#000 100%) repeat scroll 0 0 rgba(0,0,0,0);
+	border:1px solid #666;
+	border-radius:5px;
+	margin:10px auto;
+	padding:10px;
+	text-transform:uppercase;
+	width:65%;
+	display:block
+}
+.button:active{
+	border:1px solid #999;
+	display:block
+}
+.button a{
+	color:#ccc;
+	display:block
+}
+.button a:hover{
+	color:#fff;
+	display:block
+}
+strong{
+	font-weight:700
+}
+.container{
+	background:url(../img/xparent-bg.png)
+}
+.container:last-child{
+	background:transparent
+}
+.header .navbar{
+	margin-bottom:0
+}
+.header .navbar-inner{
+	background:url(../img/xparent-bg.png);
+	border:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+.header h1{
+	float:left;
+	margin:0;
+	text-align:left
+}
+.header a.brand{
+	background:url(../img/bbf-logo.png) no-repeat scroll 20px center rgba(0,0,0,0);
+	display:inline-block;
+	height:140px;
+	padding:30px 0;
+	text-indent:-9999px;
+	width:180px
+}
+.header ul.nav{
+	font-size:14px
+}
+.header ul.nav li a{
+	color:#fff;
+	padding:65px 15px 10px;
+	text-shadow:none
+}
+.header ul.nav li a:hover{
+	background:#666;
+	color:#fff
+}
+.header ul.nav li a i{
+	line-height:35px;
+	color:#aaa
+}
+.header ul.nav li a:hover i{
+	color:#fff
+}
+footer{
+	padding-bottom:20px;
+	background:#3d77b2;
+	-moz-box-shadow:0 5px 15px 0 rgba(0,0,0,.05) inset;
+	-webkit-box-shadow:0 5px 15px 0 rgba(0,0,0,.05) inset;
+	box-shadow:0 5px 15px 0 rgba(0,0,0,.05) inset;
+	border-top:10px solid #B71C1D;
+	background:#000;
+	background:url(data:image/svg+xml;
+base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIyNCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI3OSUiIHN0b3AtY29sb3I9IiMzMzY2OTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background:-moz-linear-gradient(left,#000 24%,#3d77b2 79%);
+	background:-webkit-gradient(linear,left top,right top,color-stop(24%,#000),color-stop(79%,#3d77b2));
+	background:-webkit-linear-gradient(left,#000 24%,#3d77b2 79%);
+	background:-o-linear-gradient(left,#000 24%,#3d77b2 79%);
+	background:-ms-linear-gradient(left,#000 24%,#3d77b2 79%);
+	background:linear-gradient(to right,#000 24%,#3d77b2 79%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000',endColorstr='#3d77b2',GradientType=1)
+}
+footer .widget{
+	margin-top:20px;
+	text-align:left
+}
+footer .widget h4{
+	color:#999;
+	font-family:"Droid Sans",Helvetica,Arial,sans-serif;
+	font-size:14px;
+	margin-top:20px;
+	text-transform:uppercase
+}
+footer .widget p{
+	line-height:24px
+}
+.weather {
+	line-height:24px;
+	color:#f90;
+	font-size:16px;
+	font-weight:bold;
+
+}
+footer .widget i{
+	padding-right:7px
+}
+footer .footer-border{
+	margin-top:30px;
+	border-top:1px dashed #ddd
+}
+footer .copyright{
+	margin-top:15px;
+	text-align:left
+}
+footer .social{
+	margin-top:10px;
+	text-align:right
+}
+footer .social a{
+	display:inline-block;
+	width:24px;
+	height:24px;
+	margin:0 0 0 8px;
+	vertical-align:middle
+}
+footer .social a.facebook{
+	background:url(../img/social-icons/facebook.png) left bottom no-repeat
+}
+footer .social a:hover{
+	background-position:left top
+}
+.panel{
+	background-color:#000;
+	border:1px solid rgba(0,0,0,0);
+	border-radius:4px;
+	box-shadow:0 1px 1px rgba(0,0,0,0.05);
+	margin-bottom:20px
+}
+.panel-body{
+	border:1px solid #666;
+	color:#FFF;
+	padding:15px
+}
+.panel-heading{
+	background:none repeat scroll 0 0 #3d77b2;
+	border:1px solid #666;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	padding:10px 15px
+}
+.panel-heading > .dropdown .dropdown-toggle{
+	color:inherit
+}
+.panel-title{
+	color:inherit;
+	font-size:16px;
+	margin-bottom:0;
+	margin-top:0
+}
+.panel-title > a{
+	color:#fff
+}
+.block br{
+	margin-bottom:15px;
+}
+
+.floated-image{
+	float:left;
+	margin:5px 20px 10px 0;
+	max-width:100%;
+	border:2px solid #3d77b2
+}
+
+.full-image {
+    border: 2px solid #3d77b2;
+    display: inline;
+    margin: 20px 5px 0;
+    width: 45%;
+}
+.side-margin-image{
+	max-width:100%;
+	margin:10px 0
+}
+.navbar .btn-navbar .icon-bar{
+	background-color:#3d77b2
+}
+.navbar .btn-navbar,.navbar .btn-navbar:hover{
+	background:transparent
+}
+h4{
+	color:#3d77b2
+}
+h3{
+	color:#ed1d1c;
+	font-size:14px
+}
+p{
+	margin:20px 0 20px
+}
+#supersized-loader{
+	position:absolute;
+	top:50%;
+	left:50%;
+	z-index:0;
+	width:60px;
+	height:60px;
+	margin:-30px 0 0 -30px;
+	text-indent:-999em;
+	background:url(../img/progress.gif) no-repeat center center
+}
+#supersized{
+	display:block;
+	position:fixed;
+	left:-30px;
+	top:0;
+	overflow:hidden;
+	z-index:-999;
+	height:100%;
+	width:100%
+}
+#supersized img{
+	width:auto;
+	height:auto;
+	position:relative;
+	display:none;
+	outline:none;
+	border:none
+}
+#supersized.speed img{
+	-ms-interpolation-mode:nearest-neighbor;
+	image-rendering:-moz-crisp-edges
+}
+#supersized.quality img{
+	-ms-interpolation-mode:bicubic;
+	image-rendering:optimizeQuality
+}
+#supersized li{
+	display:block;
+	list-style:none;
+	z-index:-30;
+	position:fixed;
+	overflow:hidden;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#111
+}
+#supersized a{
+	width:100%;
+	height:100%;
+	display:block
+}
+#supersized li.prevslide{
+	z-index:-20
+}
+#supersized li.activeslide{
+	z-index:-10
+}
+#supersized li.image-loading{
+	background:#111 url(../img/progress.gif) no-repeat center center;
+	width:100%;
+	height:100%
+}
+#supersized li.image-loading img{
+	visibility:hidden
+}
+#supersized li.prevslide img,#supersized li.activeslide img{
+	display:inline
+}
+#slidecaption a{
+	color:#f90
+}
+#slidecaption a:hover{
+	color:red
+}
+
+.rule-below {
+    border-bottom: 1px dashed red;
+}
+
+.countdown-wrapper{
+  text-align:center;
+  width:300px;
+  border:1px solid #fff;
+  background:url(http://www.robinburrage.com/boston-boxing/assets/img/boxing-glove.jpg);
+  box-sizing:border-box;
+  padding:20px 10px;
+  font-family:arial;
+  font-size:16px;
+  color:#fff;
+  font-weight:bold;
+  margin: 0 auto;
+    margin-bottom:40px;
+}
+#countdown{
+  font-size:80px;
+}
+.lead-in{
+  font-size: 24px;
+    margin-bottom:40px;
+    line-height: 28px;
+}
+.days{
+  font-size:30px;
+margin-top:40px;
+}
+.until{
+    margin-top:5px;
+}
+.plan{
+    margin-top:20px;
+}
+
+@media (min-width: 980px) and (max-width: 1200px){
+	.flex-caption{
+		max-width:700px
+	}
+	.what-we-do .service p,.portfolio .work p{
+		padding-left:10px;
+		padding-right:10px
+	}
+	.call-to-action-text{
+		padding-bottom:30px
+	}
+	.call-to-action-text .ca-text{
+		padding:0 35px
+	}
+	.call-to-action-text .ca-button{
+		margin-top:10px
+	}
+	.button{
+		width:90%
+	}	
+	.full-image {
+	width: 45%;
+	display:inline;
+	}
+}
+
+hr {
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+    
+
+    
+@media (min-width: 768px) and (max-width: 979px){
+	.header ul.nav li a{
+		padding:15px 20px;
+		font-weight:400;
+		text-align:left;
+		-moz-border-radius:0;
+		-webkit-border-radius:0;
+		border-radius:0;
+		background-color:#3d77b2
+	}
+	.header ul.nav li.current-page a{
+		padding-top:15px
+	}
+	.header ul.nav li a i,.header ul.nav li a br{
+		display:none
+	}
+	.button{
+		width:90%
+	}
+	.floated-image{
+		float:none;
+		width:100%
+	}
+	.full-image {
+	width: 45%;
+	display:inline;
+	margin:20px 0 0;
+	}
+}
+@media (max-width: 767px){
+	html,body{
+		overflow-x:hidden
+	}
+	body{
+		padding-left:0;
+		padding-right:0
+	}
+	.slider,.what-we-do,.portfolio{
+		padding:0 20px
+	}
+	.what-we-do{
+		margin-top:30px
+	}
+	.header ul.nav li a{
+		padding:15px 20px;
+		font-weight:400;
+		text-align:left;
+		-moz-border-radius:0;
+		-webkit-border-radius:0;
+		border-radius:0
+	}
+	.header ul.nav li.current-page a{
+		padding-top:15px
+	}
+	.header ul.nav li a i,.header ul.nav li a br{
+		display:none
+	}
+	footer{
+		background-color:#000;
+		border:none
+	}
+	footer .copyright,footer .social{
+		margin-left:20px
+	}
+	footer .widget h4{
+		color:#fff
+	}
+	footer .widget.span4{
+		padding:5px 20px;
+		background-color:#3d77b2;
+		border-radius:10px;
+		color:#fff;
+		padding:5px 20px;
+		border-top:10px solid #CF1A19;
+		border-bottom:10px solid #CF1A19;
+		box-shadow:5px 5px 10px #000;
+		margin:20px auto;
+		width:90%;
+		background:radial-gradient(ellipse at center center,#3d77b2 25%,#333 72%) repeat scroll 0 0 rgba(0,0,0,0)
+	}
+	.button{
+		width:90%
+	}
+	footer a{
+		color:#f90
+	}
+	.header ul.nav li a{
+		background-color:#3d77b2
+	}
+	.header ul.nav li.current-page a{
+		border-top:none
+	}
+	footer .social{
+		text-align:left
+	}
+	.separator{
+		text-align:center
+	}
+	#rotating-item-wrapper{
+		width:100%;
+		border:none
+	}	
+	.full-image {
+	width: 45%;
+	display:inline;
+	}
+
+}
+@media (max-width: 480px){	
+	.full-image {
+	width: 95%;
+	display:block;
+	}
+}
