@@ -41,8 +41,8 @@ const classes = [
     "ClassDescription": "This class is for those of you who have fought hard to reclaim your lives after battling cancer. It's a place for you to reclaim your health, your energy, your happiness, and to make friends who are also looking for the support of a strong class that is geared towards helping you reclaim your life."
   },
   {
-  "ClassName": "Open Gym",
-  "ClassDescription": "90-minute Maximum Workout, <strong>15 Person Capacity.</strong>"
+    "ClassName": "Open Gym",
+    "ClassDescription": "90-minute Maximum Workout, <strong>15 Person Capacity.</strong>"
   }
 ];
 
@@ -65,7 +65,7 @@ const Weeklyclasses = [
     "ClassName": "BoxStrong",
     "Start_Time": "7:00PM",
     "End_Time": "8:30PM"
-  },  
+  },
   {
     "DayOfTheWeek": "Tuesday",
     "ClassName": "Open Gym",
@@ -83,7 +83,7 @@ const Weeklyclasses = [
     "ClassName": "BoxStrong",
     "Start_Time": "7:00PM",
     "End_Time": "8:30PM"
-  },    
+  },
   {
     "DayOfTheWeek": "Wednesday",
     "ClassName": "Open Gym",
@@ -101,7 +101,7 @@ const Weeklyclasses = [
     "ClassName": "BoxStrong",
     "Start_Time": "7:00PM",
     "End_Time": "8:30PM"
-  },    
+  },
   {
     "DayOfTheWeek": "Thursday",
     "ClassName": "Open Gym",
@@ -119,7 +119,7 @@ const Weeklyclasses = [
     "ClassName": "BoxStrong",
     "Start_Time": "7:00PM",
     "End_Time": "8:30PM"
-  },   
+  },
   {
     "DayOfTheWeek": "Friday",
     "ClassName": "Open Gym",
@@ -224,10 +224,26 @@ $(document).ready(function () {
 this.$slideOut = $('.slideOut');
 
 // Close slideout panel
-this.$slideOut.find('.slideOutTab').on('click', function() {
+this.$slideOut.find('.slideOutTab').on('click', function () {
   $(".slideOut").toggleClass('hideSlideOut');
   $(".slideOutTab").toggleClass('plusSign');
 });
 
 // Get the modal
 var modal = document.querySelector('.popup');
+
+
+//Remove alert on date
+const isToday = (dateInQuestion) => {
+  let inputDate = new Date("2/19/2021");
+  let todaysDate = new Date();
+  let alertBox2 = document.querySelector('.alert-box-2');
+
+  if (inputDate.setHours(0, 0, 0, 0) == todaysDate.setHours(0, 0, 0, 0)) {
+    alertBox2.style.display = 'none';
+  } else {
+    alertBox2.style.display = 'block';
+  }
+}
+
+isToday();

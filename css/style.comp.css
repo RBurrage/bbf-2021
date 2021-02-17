@@ -206,7 +206,7 @@ select {
   padding: 0 10px;
   outline: 1px solid transparent; }
 
-.alert-box {
+.alert-box, .alert-box-2 {
   background: #B71C1D;
   color: #fff;
   width: 100%;
@@ -215,10 +215,15 @@ select {
   z-index: 1000;
   padding: 1rem 10rem; }
   @media only screen and (max-width: 75em) {
-    .alert-box {
+    .alert-box, .alert-box-2 {
       padding: 1rem 4rem; } }
-  .alert-box a {
+  .alert-box a, .alert-box-2 a {
     color: #ffb900; }
+
+.alert-box-2 {
+  background: #2998ff;
+  text-transform: uppercase;
+  letter-spacing: .2rem; }
 
 .section-about {
   padding: 25rem 0 10rem;
