@@ -21,7 +21,7 @@
     }
 
     .outreach-logo {            
-    height: 150px;
+    max-height: 150px;
     }
 
     @include respond(tab-port) {         
