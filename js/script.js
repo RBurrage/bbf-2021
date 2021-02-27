@@ -229,6 +229,12 @@ this.$slideOut.find('.slideOutTab').on('click', function () {
   $(".slideOutTab").toggleClass('plusSign');
 });
 
+// Close slideout panel
+this.$slideOut.find('#todaysClasses').on('click', function () {
+  $(".slideOut").toggleClass('hideSlideOut');
+  $(".slideOutTab").toggleClass('plusSign');
+});
+
 // Get the modal
 var modal = document.querySelector('.popup');
 
