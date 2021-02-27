@@ -234,12 +234,12 @@ var modal = document.querySelector('.popup');
 
 
 //Remove alert on specific date
-const isToday = (dateInQuestion) => {
-  let inputDate = new Date("2/19/2021");
-  let todaysDate = new Date();
+const isToday = () => {
+  let AlertExpirationDate = new Date("2/19/2021"); // Date to remove message
+  let today = new Date();
   let alertBox2 = document.querySelector('.alert-box-2');
 
-  if (inputDate.setHours(0, 0, 0, 0) == todaysDate.setHours(0, 0, 0, 0)) {
+  if (AlertExpirationDate <= today) {
     alertBox2.style.display = 'none';
   } else {
     alertBox2.style.display = 'block';
