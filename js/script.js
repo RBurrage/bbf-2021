@@ -233,7 +233,7 @@ this.$slideOut.find('.slideOutTab').on('click', function () {
 var modal = document.querySelector('.popup');
 
 
-//Remove alert on date
+//Remove alert on specific date
 const isToday = (dateInQuestion) => {
   let inputDate = new Date("2/19/2021");
   let todaysDate = new Date();
