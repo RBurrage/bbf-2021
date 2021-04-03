@@ -232,7 +232,8 @@ select {
     .section-about {
       padding: 20rem 0 5rem; } }
 
-.section-team-training {
+.section-team-training,
+.section-program {
   background: #eee;
   padding: 5rem 0 10rem; }
 
