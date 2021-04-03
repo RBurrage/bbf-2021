@@ -137,6 +137,12 @@ const Weeklyclasses = [
     "ClassName": "BoxStrong",
     "Start_Time": "10:00AM",
     "End_Time": "11:30AM"
+  },
+  {
+    "DayOfTheWeek": "Saturday",
+    "ClassName": "Open Gym",
+    "Start_Time": "10:00AM",
+    "End_Time": "2:00PM"
   }
 
 ];
