@@ -1,4 +1,4 @@
-.alert-box, .alert-box-2 {
+.alert-box {
   background: $color-primary-dark;
   color: #fff;
   width: 100%;
@@ -14,12 +14,7 @@
   a {
     color: $color-secondary-light
   }
-}
-
-.alert-box-2 {
-  background: #2998ff;
-  text-transform: uppercase;
-  letter-spacing:.2rem
+  display: none;
 }
 
 .section-about {
