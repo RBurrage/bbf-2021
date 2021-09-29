@@ -22,7 +22,7 @@ const classes = [
     "ClassName": "Core Training",
     "ClassDescription": "With non-stop multiple core and sit up exercises, you will predominately work your abs, oblique, lower back, and hip flexor, and strengthen your core through a series of lower body strength and flexibility exercises."
   }, {
-    "ClassName": "Boxercise/Technique",
+    "ClassName": "Boxercise",
     "ClassDescription": "A heavy bag conditioning class that mixes in plyometric drills with punching and technique drills. An intense combination of a cardio workout with heavy bag drills."
   }, {
     "ClassName": "Strength Training",
@@ -52,11 +52,11 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Monday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "9:00PM"
   },
   {
     "DayOfTheWeek": "Monday",
-    "ClassName": "Boxercise/Technique",
+    "ClassName": "Boxercise",
     "Start_Time": "5:30PM",
     "End_Time": "6:30PM"
   },
@@ -70,11 +70,11 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Tuesday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "9:00PM"
   },
   {
     "DayOfTheWeek": "Tuesday",
-    "ClassName": "Boxercise/Technique",
+    "ClassName": "Boxercise",
     "Start_Time": "5:30PM",
     "End_Time": "6:30PM"
   },
@@ -88,11 +88,11 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Wednesday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "9:00PM"
   },
   {
     "DayOfTheWeek": "Wednesday",
-    "ClassName": "Boxercise/Technique",
+    "ClassName": "Boxercise",
     "Start_Time": "5:30PM",
     "End_Time": "6:30PM"
   },
@@ -106,11 +106,11 @@ const Weeklyclasses = [
     "DayOfTheWeek": "Thursday",
     "ClassName": "Open Gym",
     "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "End_Time": "9:00PM"
   },
   {
     "DayOfTheWeek": "Thursday",
-    "ClassName": "Boxercise/Technique",
+    "ClassName": "Boxercise",
     "Start_Time": "5:30PM",
     "End_Time": "6:30PM"
   },
@@ -123,8 +123,8 @@ const Weeklyclasses = [
   {
     "DayOfTheWeek": "Friday",
     "ClassName": "Open Gym",
-    "Start_Time": "3:00PM",
-    "End_Time": "5:30PM"
+    "Start_Time": "4:00PM",
+    "End_Time": "8:00PM"
   },
   {
     "DayOfTheWeek": "Friday",
