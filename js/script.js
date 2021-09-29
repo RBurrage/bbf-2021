@@ -23,13 +23,13 @@ const classes = [
     "ClassDescription": "With non-stop multiple core and sit up exercises, you will predominately work your abs, oblique, lower back, and hip flexor, and strengthen your core through a series of lower body strength and flexibility exercises."
   }, {
     "ClassName": "Boxercise/Technique",
-    "ClassDescription": "<strong>10 Person Capacity.</strong> A heavy bag conditioning class that mixes in plyometric drills with punching and technique drills. An intense combination of a cardio workout with heavy bag drills."
+    "ClassDescription": "A heavy bag conditioning class that mixes in plyometric drills with punching and technique drills. An intense combination of a cardio workout with heavy bag drills."
   }, {
     "ClassName": "Strength Training",
     "ClassDescription": "Designed to increase muscle strength and endurance, this class uses moderate dumbbells to exhaust your muscles through an intense non-stop weight training circuit for upper and lower body muscles. And let's not forget pushups."
   }, {
     "ClassName": "BoxStrong",
-    "ClassDescription": "<strong>15 Person Capacity.</strong> This total body conditioning and boxing class will give you the most intense and challenging fitness experience ever. Enjoy strength, core, explosion, speed training, a full boxing circuit with heavy bags, and mitt work with the trainers. At the end of class you will be rewarded with a brutal abdominal workout."
+    "ClassDescription": "This total body conditioning and boxing class will give you the most intense and challenging fitness experience ever. Enjoy strength, core, explosion, speed training, a full boxing circuit with heavy bags, and mitt work with the trainers. At the end of class you will be rewarded with a brutal abdominal workout."
   }, {
     "ClassName": "Heavy Bag Conditioning",
     "ClassDescription": "Focuses on speed and power drills on the heavy bags."
@@ -42,7 +42,7 @@ const classes = [
   },
   {
     "ClassName": "Open Gym",
-    "ClassDescription": "90-minute Maximum Workout, <strong>15 Person Capacity.</strong>"
+    "ClassDescription": "Use the equipment in the gym to get in shape your way."
   }
 ];
 
