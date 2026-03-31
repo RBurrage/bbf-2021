@@ -3,7 +3,7 @@
   background-image: linear-gradient(
     to right top,
     rgba(0, 0, 0, 0.8),
-    rgba(183, 28, 29, 0.8)
+    rgba(23,68,129,0.8)
   );
   color: $color-grey-light-2;
   padding: 8rem 0;
@@ -89,7 +89,7 @@
   border-radius: 5px;
 
   h2 {
-    color: maroon;
+    color: rgba(23,68,129,0.8);
     text-transform: uppercase;
     margin-bottom: 1rem;
   }
